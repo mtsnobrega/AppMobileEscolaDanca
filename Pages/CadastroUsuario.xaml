@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobileEscolaDanca.Pages.CadastroUsuario"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             Title="CadastroUsuario">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Cadastro de Aluno"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Nome completo -->
+            <Label Text="Nome completo:" />
+            <Entry x:Name="NomeEntry"
+                   Placeholder="Digite seu nome completo" />
+
+            <!-- Data de nascimento -->
+            <Label Text="Data de nascimento:" />
+            <DatePicker x:Name="NascimentoPicker"
+                        MaximumDate="{x:Static sys:DateTime.Now}" />
+
+            <!-- E-mail -->
+            <Label Text="E-mail:" />
+            <Entry x:Name="EmailEntry"
+                   Placeholder="exemplo@email.com"
+                   Keyboard="Email" />
+
+            <!-- CPF -->
+            <Label Text="CPF:" />
+            <Entry x:Name="CpfEntry"
+                   Placeholder="Digite seu CPF"
+                   Keyboard="Numeric" />
+
+            <!-- Telefone -->
+            <Label Text="Telefone:" />
+            <Entry x:Name="TelefoneEntry"
+                   Placeholder="(00) 00000-0000"
+                   Keyboard="Telephone" />
+
+            <!-- Gênero -->
+            <Label Text="Gênero:" />
+            <Picker x:Name="GeneroPicker"
+                    Title="Selecione">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Feminino</x:String>
+                        <x:String>Masculino</x:String>
+                        <x:String>Outro</x:String>
+                        <x:String>Prefiro não dizer</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- Senha -->
+            <Label Text="Senha:" />
+            <Entry x:Name="SenhaEntry"
+                   Placeholder="Crie uma senha"
+                   IsPassword="True" />
+
+            <!-- Confirmar senha -->
+            <Label Text="Confirmar Senha:" />
+            <Entry x:Name="ConfirmarSenhaEntry"
+                   Placeholder="Repita a senha"
+                   IsPassword="True" />
+
+            <!-- Botão de cadastro -->
+            <Button Text="Cadastrar"
+                    BackgroundColor="#34C759"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnCadastrarClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

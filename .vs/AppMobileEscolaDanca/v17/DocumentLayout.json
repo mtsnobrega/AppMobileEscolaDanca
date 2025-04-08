@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\esquecisenha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\esquecisenha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\esquecisenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\esquecisenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 329,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T22:58:12.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T22:48:52.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EsqueciSenha.xaml.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\EsqueciSenha.xaml.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml.cs",
+              "RelativeToolTip": "Pages\\EsqueciSenha.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T22:53:27.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EsqueciSenha.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml",
+              "RelativeDocumentMoniker": "Pages\\EsqueciSenha.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml",
+              "RelativeToolTip": "Pages\\EsqueciSenha.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T22:48:09.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobileEscolaDanca.Pages.EsqueciSenha"
+             Title="EsqueciSenha">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
+            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Recuperação de Senha"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Entrada de E-mail -->
+            <Label Text="Digite seu e-mail cadastrado:"
+                   FontSize="16" />
+            <Entry x:Name="EmailEntry"
+                   Placeholder="exemplo@email.com"
+                   Keyboard="Email" />
+
+            <!-- Botão de Envio -->
+            <Button Text="Enviar Código"
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnEnviarCodigoClicked"
+                     />
+
+            <!-- Mensagens de erro ou sucesso -->
+            <Label x:Name="MensagemLabel"
+                   Text=""
+                   FontSize="14"
+                   TextColor="Red"
+                   IsVisible="False" />
+
+            <!-- Barra de progresso -->
+            <ProgressBar x:Name="EnvioProgressBar"
+                         Progress="0"
+                         HeightRequest="4"
+                         IsVisible="False"
+                         ProgressColor="#007AFF" />
+
+            <!-- Entrada do código recebido -->
+            <Label Text="Cole o código recebido por e-mail:"
+                   FontSize="16" />
+            <Entry x:Name="CodigoEntry"
+                   Placeholder="Código"
+                   Keyboard="Numeric" />
+
+            <!-- Nova senha -->
+            <Label Text="Nova Senha:"
+                   FontSize="16" />
+            <Entry x:Name="NovaSenhaEntry"
+                   Placeholder="Nova Senha"
+                   IsPassword="True" />
+
+            <!-- Confirmar nova senha -->
+            <Label Text="Confirme a Nova Senha:"
+                   FontSize="16" />
+            <Entry x:Name="ConfirmarSenhaEntry"
+                   Placeholder="Confirme a Senha"
+                   IsPassword="True" />
+
+            <!-- Botão para redefinir senha -->
+            <Button Text="Redefinir Senha"
+                    BackgroundColor="#34C759"
+                    TextColor="White"
+                    CornerRadius="10"
+                   />
+            <!--  Clicked="OnRedefinirSenhaClicked" -->
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

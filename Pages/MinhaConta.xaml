@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobileEscolaDanca.Pages.MinhaConta"
+             xmlns:views="clr-namespace:AppMobileEscolaDanca.Pages"
+             Title="MinhaConta">
+
+    <views:MinhasFinancas Title="Perfil" IconImageSource="home_ico.png" />
+    <!-- 
+    <views:SenhaPage Title="Senha" IconImageSource="senha_icon.png" />
+    <views:DependentePage Title="Dependente" IconImageSource="dependente_icon.png" /> -->
+
+    <ContentPage
+    IconImageSource="home_ico.png"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#fec7d7">
+        
+    </ContentPage>
+
+    <ContentPage
+                IconImageSource="home_ico.png"
+                NavigationPage.HasNavigationBar="False"
+                BackgroundColor="#fec7d7">
+        
+    </ContentPage>
+
+    <ContentPage
+IconImageSource="home_ico.png"
+NavigationPage.HasNavigationBar="False"
+BackgroundColor="#fec7d7"
+></ContentPage>
+
+</TabbedPage>

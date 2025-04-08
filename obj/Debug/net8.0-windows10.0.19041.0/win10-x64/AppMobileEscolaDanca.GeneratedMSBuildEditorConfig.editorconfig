@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppMobileEscolaDanca
+build_property.ProjectDir = C:\ProjetoMobileC#\AppMobileEscolaDanca\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/CadastroUsuario.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.CadastroUsuario.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CadastroUsuario.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CadastroUsuario.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/EsqueciSenha.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.EsqueciSenha.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EsqueciSenha.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EsqueciSenha.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/InfoDetalhes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.InfoDetalhes.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InfoDetalhes.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InfoDetalhes.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/MinhaConta.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.MinhaConta.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MinhaConta.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MinhaConta.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/MinhasFinancas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.MinhasFinancas.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MinhasFinancas.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MinhasFinancas.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Resources/Styles/FrontEnd_Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Resources.Styles.FrontEnd_Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\FrontEnd_Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\FrontEnd_Styles.xaml
+
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

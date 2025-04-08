@@ -1,0 +1,1 @@
+C:\ProjetoMobileC#\AppMobileEscolaDanca\AppMobileEscolaDanca.csproj;x64

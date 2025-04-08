@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobileEscolaDanca.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
+            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+
+    <ScrollView  >
+
+        <VerticalStackLayout VerticalOptions="Start">
+            
+            <StackLayout Padding="0" Spacing="20" >
+                <Image Source="dotnet_bot.png"
+                         WidthRequest="300"
+                         HeightRequest="300"
+                         HorizontalOptions="Center"
+                         Margin="0,0,0,10"/>
+
+                <StackLayout Spacing="5"  Margin="10,0,10,0">
+                    
+                    <Label Text="E-mail"
+                               Style="{StaticResource ExibirTexto}"/>
+
+                    <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
+                        <Frame Grid.ColumnSpan="2" CornerRadius="30" Padding="0" BackgroundColor="White" BorderColor="#3e476c">
+                            <Entry Placeholder="Digite seu e-mail"
+                                   x:Name="CampoEmail"
+                                   Style="{StaticResource EntraTexto}"/>
+                        </Frame>
+                        <ImageButton Grid.Column="1" 
+                                     Margin="0,0,15,0"
+                                     HeightRequest="30" 
+                                     WidthRequest="30"
+                                     Source="user.png"
+                                     BackgroundColor="Transparent"/>
+                    </Grid>
+
+                    <Label Text="Senha"
+                               Style="{StaticResource ExibirTexto}"/>
+
+                    <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,10">
+                        <Frame Grid.ColumnSpan="2" CornerRadius="30" Padding="0" BackgroundColor="White" BorderColor="#3e476c">
+                            <Entry x:Name="EntradaSenha" 
+                                   Placeholder="Digite sua senha"
+                                   IsPassword="True"
+                                   Style="{StaticResource EntraTexto}"/>
+                        </Frame>
+                        <ImageButton Grid.Column="1" 
+                                     Margin="0,0,15,0"
+                                     HeightRequest="30" 
+                                     WidthRequest="30"
+                                     Source="pode_olhar.png"
+                                     BackgroundColor="Transparent"
+                                     Clicked="CliqueVerSenha"/>
+                    </Grid>
+
+                    <Button x:Name = "EsqSenha"
+                           Clicked="BtnEsqSenha_Clicked"
+                           Text="Esqueci a senha "
+                           HorizontalOptions="End"
+                           TextColor="#0e172c"
+                           FontSize="15"
+                           FontFamily="Montserrat"
+                           BackgroundColor="Transparent"
+                           Margin="0,0,0,0"
+                           Padding="5"/>
+
+
+                </StackLayout>
+
+                <Grid ColumnDefinitions="*,Auto" Margin="10,20,10,0">
+                    <Button 
+                        Text="Login com Google"
+                        ImageSource="google_ico.png"
+                        ContentLayout="Left,5"
+                        HeightRequest="50"
+                        FontSize="16"
+                        Style="{StaticResource BotaoLogin}"
+                        Grid.Column="0"
+                        HorizontalOptions="Start"/>
+
+                    <Button
+                        x:Name="btnlogin"
+                        Clicked="Btnlogin_Clicked"
+                        Text="Login"
+                        WidthRequest="120"
+                        Style="{StaticResource BotaoLogin}"
+                        Grid.Column="1"
+                        HorizontalOptions="End"/>
+                </Grid>
+
+                <StackLayout Orientation="Horizontal" FlowDirection="LeftToRight" HorizontalOptions="Center" Spacing="10" Margin="0,10,0,0">
+                    <Button
+                        x:Name="btncadastro"
+                        Clicked="BtnCadastro_Clicked"
+                        Text="Não tem cadastro? Clique Aqui"
+                        HeightRequest="50"
+                        BackgroundColor="Transparent"
+                        FontSize="15"/>
+
+                </StackLayout>
+
+
+                <Label x:Name="MensagemLogin"
+                       Text=""
+                       FontSize="14"
+                       TextColor="Red"
+                       IsVisible="False" />
+
+                <!-- Barra de progresso -->
+                <ProgressBar x:Name="EnvioProgressBar"
+                             Progress="0"
+                             HeightRequest="4"
+                             IsVisible="False"
+                             ProgressColor="#007AFF" />
+
+
+            </StackLayout>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

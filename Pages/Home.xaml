@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="AppMobileEscolaDanca.Pages.Home"
+            NavigationPage.HasNavigationBar="False"
+            Title="Home"
+            BarBackgroundColor="#3e476c"
+            UnselectedTabColor="White"
+            SelectedTabColor="{StaticResource Preto}">
+
+    <!-- Página 1 -->
+    <ContentPage
+        IconImageSource="home_ico.png"
+        NavigationPage.HasNavigationBar="False"
+        BackgroundColor="#fec7d7"
+        x:Name="MainPageInstance">
+        
+        <!-- ScrollView Principal-->
+        <ScrollView>
+            
+            
+
+            <!-- Conteiner Pricipal da pagina 1 -->
+            <VerticalStackLayout  Spacing="0">
+
+                <!-- Conteiner da imagem de perfil + botão para selecionar o tipo de imagem-->
+                <VerticalStackLayout Spacing="20" Padding="20">
+
+                    <!-- Organizando a imagem de perfil e mensagem em uma div -->
+                    <Grid >
+
+                        <!-- Configurando a grid onde ele tera duas colunas-->
+                        <Grid.ColumnDefinitions>
+                            <!-- Label -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- Imagem perfil -->
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Column="0"
+                            Text="Bem vindo de volta, Fulano"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            FontFamily="Montserrat"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="#0e172c"/>
+
+                        <!-- Configurando imagem de perfil e o botão para trocar foto-->
+                        <Grid
+                            Grid.Column="1"
+                            VerticalOptions="Center"
+                            HorizontalOptions="End">
+
+                            <Frame
+                                WidthRequest="150"
+                                HeightRequest="150"
+                                CornerRadius="75"
+                                Padding="0"
+                                IsClippedToBounds="True"
+                                BorderColor="Black"
+                                VerticalOptions="End">
+
+                                <Image
+                                    x:Name="ProfileImage"
+                                    WidthRequest="150"
+                                    HeightRequest="150"
+                                    Aspect="AspectFill"/>
+                            </Frame>
+
+                            <ImageButton
+                                Source="pic.png"
+                                Aspect="AspectFit"
+                                Padding="5"
+                                WidthRequest="40" HeightRequest="40" 
+                                BackgroundColor="{StaticResource Roxo}" 
+                                CornerRadius="20" 
+                                BorderColor="Black" 
+                                BorderWidth="2"
+                                Clicked="OnChangePhotoClicked"
+                                TranslationX="50"
+                                TranslationY="50"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                        </Grid>
+                    </Grid>
+                </VerticalStackLayout>
+                    
+
+
+                <!-- Conteiner que esta organizando a gameficação -->
+                <Frame CornerRadius="10"
+                       Padding="10"
+                       Margin="20"
+                       BackgroundColor="#f9f8fc"
+                       HasShadow="False"
+                       BorderColor="Black">
+
+
+                    
+                    <VerticalStackLayout Spacing="20" Padding="5">
+
+                        <Grid>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Exibição do texto da qtd de aulas -->
+                            <Label x:Name="labelAulas"
+                                   Text="Aulas Completas: 0/10"
+                                   FontSize="18"
+                                   Grid.Column="0"
+                                   Grid.Row="0"
+                                   HorizontalOptions="Start"
+                                   TextColor="#0e172c"
+                                   FontFamily="Montserrat"/>
+
+                            <!-- Barra de Progresso -->
+                            <Grid x:Name="Barraprogresso" 
+                                  Grid.Column="0"
+                                  Grid.Row="1"
+                                  VerticalOptions="End"
+                                  HorizontalOptions="Fill"
+                                  Margin="0,0,10,0"
+                                  SizeChanged="Barra_para_progredir">
+
+                                <!-- Barra de progresso backgroud-->
+                                <BoxView Color="{StaticResource Roxo}"
+                                         HeightRequest="20"
+                                         HorizontalOptions="Fill"
+                                         CornerRadius="0"/>
+
+                                <!-- Barra de progresso sobreposta(preenchimento) -->
+                                <BoxView x:Name="progressBar"
+                                         Color="{StaticResource Rosa}"
+                                         HeightRequest="20"
+                                         WidthRequest="0"
+                                         CornerRadius="0"
+                                         HorizontalOptions="Start"/>
+                            </Grid>
+
+                            <!-- Configurando a imagem da gameficação-->
+                            <Border Grid.RowSpan="2"
+                                    Grid.Column="1"
+                                    MaximumHeightRequest="90"
+                                    HeightRequest="90"
+                                    WidthRequest="120">
+                                <Image x:Name="ImageGame"
+                                   Source="julius.jpeg"
+                                   
+                                   Aspect="AspectFill"
+                                   VerticalOptions="Start"
+                                   HorizontalOptions="End"/>
+                            </Border>
+                        </Grid>
+
+                        <!-- Botões que controlam a gameficação-->
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="Center"
+                                     Spacing="10">
+                            <Button Text="Completar Aula" BackgroundColor="#fec7d7"  TextColor="#0e172c" Clicked="OnAulaCompleta"/>
+                            <Button Text="Diminuir Aula" BackgroundColor="#fec7d7"  TextColor="#0e172c" Clicked="OnAul"/>
+                        </StackLayout>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+
+                <!-- Navegação para finanças e minha conta -->
+                <Grid Margin="20,20,20,20" >
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+
+                    <!-- Minhas Financas -->
+                    <Frame Padding="10"
+                           CornerRadius="10"
+                           BackgroundColor="#cdb4db"
+                           BorderColor="Black"
+                           HasShadow="True"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           Grid.Column="0"
+                           WidthRequest="180"
+                           MinimumWidthRequest="100"
+                           MinimumHeightRequest="100">
+
+                        <VerticalStackLayout HorizontalOptions="Center">
+                            <Image Source="credit_card.png"
+                                   MinimumWidthRequest="40"
+                                   MinimumHeightRequest="40"
+                                   WidthRequest="80"
+                                   HeightRequest="80"/>
+
+                            <Label Text="Minhas Finanças"
+                                   TextColor="#0e172c"
+                                   Margin="0,10,0,0"
+                                   FontSize="16"
+                                   HorizontalTextAlignment="Center"/>
+                        </VerticalStackLayout>
+
+                        <!-- Fazer com que todo o espaço do frame seja clicavel-->
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="BtnMinhasFinancas_Clicked"/>
+                        </Frame.GestureRecognizers>
+
+                    </Frame>
+
+                    <!-- Minha Conta -->
+                    <Frame Padding="10"
+                           CornerRadius="10"
+                           BorderColor="Black"
+                           HasShadow="True"
+                           BackgroundColor="#cdb4db"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center"
+                           Grid.Column="1"
+                           WidthRequest="180"
+                           MinimumWidthRequest="100"
+                           MinimumHeightRequest="100">
+
+                        <VerticalStackLayout HorizontalOptions="Center">
+                            <Image Source="person.png"
+                                   MinimumWidthRequest="40"
+                                   MinimumHeightRequest="40"
+                                   WidthRequest="80"
+                                   HeightRequest="80"/>
+
+                            <Label Text="Minha Conta"
+                                   TextColor="#0e172c"
+                                   Margin="0,10,0,0"
+                                   FontSize="16"
+                                   HorizontalTextAlignment="Center"/>
+
+                        </VerticalStackLayout>
+
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="BtnMinhaConta_Clicked"/>
+                        </Frame.GestureRecognizers>
+
+                    </Frame>
+                    
+                </Grid>
+                
+            </VerticalStackLayout>
+            
+        </ScrollView>
+        
+    </ContentPage>
+
+    <!-- Página 2 -->
+    <ContentPage IconImageSource="lista_ico.png"
+                 BackgroundColor="#fec7d7"
+                 NavigationPage.HasNavigationBar="False">
+
+        <ScrollView>
+            <VerticalStackLayout Spacing="0">
+
+                <Label Text="Meus Pacotes"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontFamily="Montserrat"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       TextColor="#0e172c"
+                       Margin="20"/>
+
+                <CollectionView x:Name="listaAulas" Margin="20,0,20,20">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="5" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="15" CornerRadius="10" BorderColor="Black" BackgroundColor="White">
+                                <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto" >
+
+                                    <StackLayout Grid.Column="1" Grid.Row="0" Margin="15,0,0,10">
+                                        <Label Text="{Binding Titulo}" FontSize="18" FontAttributes="Bold" TextColor="#0e172c"/>
+                                        <Label Text="{Binding Descricao}" FontSize="14" TextColor="#0e172c" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="1" Grid.Row="1" Margin="15,10,0,0" Orientation="Horizontal">
+                                        <Label Text="{Binding DiaDaSemana, StringFormat='Dia: {0}'}" FontSize="14" TextColor="#0e172c"/>
+                                        <Label Text="{Binding Horario, StringFormat='Horário: {0}'}" FontSize="14" Margin="10,0,0,0" TextColor="#0e172c"/>
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="1" Grid.Row="2" Margin="15,5,0,0" Orientation="Horizontal">
+                                        <Label Text="{Binding Professor, StringFormat='Prof.: {0}'}" FontSize="14" TextColor="#0e172c"/>
+                                        <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}" FontSize="14" Margin="10,0,0,0" TextColor="#0e172c"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+               
+
+               
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <!-- Página 3 -->
+    <ContentPage IconImageSource="novidades_ico.png"
+                 NavigationPage.HasNavigationBar="False"
+                 BackgroundColor="#fec7d7">
+
+        <ScrollView>
+
+            <VerticalStackLayout  Spacing="0">
+
+                <Label Text="Pacotes de Aulas Disponiveis "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontFamily="Montserrat"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       TextColor="#0e172c"
+                       Margin="20"/>
+
+                <CollectionView x:Name="listaprodutos" Margin="20,0,20,20" SelectionMode="None">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="5" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Margin="0,0,0,15" Padding="15" CornerRadius="10" BorderColor="LightGray">
+                                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto,Auto">
+                                    <Image Grid.RowSpan="3" 
+                                           Source="{Binding ImagemUrl}" 
+                                           WidthRequest="80" 
+                                           HeightRequest="80"
+                                           Aspect="AspectFill" />
+
+                                    <StackLayout Grid.Column="1" Grid.Row="0" Margin="15,0,0,0">
+                                        <Label Text="{Binding Titulo}" FontSize="18" FontAttributes="Bold" />
+                                        <Label Text="{Binding Descricao}" FontSize="14" TextColor="Gray" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="1" Grid.Row="1" Margin="15,10,0,0" Orientation="Horizontal">
+                                        <Label Text="{Binding DiaDaSemana, StringFormat='Dia: {0}'}" FontSize="14" />
+                                        <Label Text="{Binding Horario, StringFormat='Horário: {0}'}" FontSize="14" Margin="10,0,0,0" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="1" Grid.Row="2" Margin="15,5,0,0" Orientation="Horizontal">
+                                        <Label Text="{Binding Professor, StringFormat='Prof.: {0}'}" FontSize="14" />
+                                        <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}" FontSize="14" Margin="10,0,0,0" />
+                                    </StackLayout>
+
+                                    <!-- Checkbox para seleção -->
+                                    <CheckBox Grid.Column="2" Grid.Row="0" 
+                              IsChecked="{Binding IsSelected}" 
+                              VerticalOptions="Start"
+                              HorizontalOptions="End"
+                              />
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!-- Botão para processar as aulas selecionadas -->
+                <Button Text="Comprar Aulas Selecionadas" 
+        HorizontalOptions="Center"
+        Margin="0,20,0,20"
+        Clicked="OnComprarClicked"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+
+</TabbedPage>
