@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-13T05:45:50.175</Modified>
+      <Modified>2025-04-13T16:50:18.989</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-13T04:10:43.579</Modified>
+      <Modified>2025-04-13T15:13:25.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.runtimeconfig.json">
       <PackagePath>AppMobileEscolaDanca.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.dll">
       <PackagePath>AppMobileEscolaDanca.dll</PackagePath>
-      <Modified>2025-04-13T05:45:48.794</Modified>
+      <Modified>2025-04-13T16:50:17.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppMobileEscolaDanca.exe</PackagePath>
-      <Modified>2025-04-13T05:45:48.864</Modified>
+      <Modified>2025-04-13T16:50:17.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -348,7 +348,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.deps.json">
       <PackagePath>AppMobileEscolaDanca.deps.json</PackagePath>
-      <Modified>2025-04-13T04:10:43.151</Modified>
+      <Modified>2025-04-13T15:13:25.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\minhasfinancas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\minhasfinancas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\cadastrousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\cadastrousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MinhasFinancas.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MinhasFinancas.xaml",
+              "RelativeDocumentMoniker": "Pages\\MinhasFinancas.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MinhasFinancas.xaml",
+              "RelativeToolTip": "Pages\\MinhasFinancas.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T15:12:22.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CadastroUsuario.xaml",
               "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\CadastroUsuario.xaml",
               "RelativeDocumentMoniker": "Pages\\CadastroUsuario.xaml",
               "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\CadastroUsuario.xaml",
               "RelativeToolTip": "Pages\\CadastroUsuario.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBMAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-13T05:43:08.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrontEnd_Styles.xaml",
               "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Resources\\Styles\\FrontEnd_Styles.xaml",
               "RelativeDocumentMoniker": "Resources\\Styles\\FrontEnd_Styles.xaml",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -80,12 +97,11 @@
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T05:45:17.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T05:45:17.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AlterarSenha.xaml",
               "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\AlterarSenha.xaml",
               "RelativeDocumentMoniker": "Pages\\AlterarSenha.xaml",
@@ -93,8 +109,7 @@
               "RelativeToolTip": "Pages\\AlterarSenha.xaml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T05:43:33.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T05:43:33.375Z"
             }
           ]
         }
