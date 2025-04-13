@@ -12,33 +12,31 @@
     </ContentPage.Background>
 
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="15">
+        <VerticalStackLayout Padding="20" Spacing="5">
 
             <Label Text="Recuperação de Senha"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center" />
+                   Style="{StaticResource ExibirTextoTitulo}"/>
 
-            <!-- Entrada de E-mail -->
             <Label Text="Digite seu e-mail cadastrado:"
-                   FontSize="16" />
-            <Entry x:Name="EmailEntry"
-                   Placeholder="exemplo@email.com"
-                   Keyboard="Email" />
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="EmailEntry"
+                       Style="{StaticResource EntraTextoTrocaSenha}"
+                       Placeholder="exemplo@email.com"
+                       Keyboard="Email" />
+            </Frame>
 
-            <!-- Botão de Envio -->
+            <!-- Botão de Envio do Email -->
             <Button Text="Enviar Código"
-                    BackgroundColor="#007AFF"
-                    TextColor="White"
-                    CornerRadius="10"
                     Clicked="OnEnviarCodigoClicked"
-                     />
+                    Style="{StaticResource BotaoEsqueciSenha}"/>
 
             <!-- Mensagens de erro ou sucesso -->
             <Label x:Name="MensagemLabel"
                    Text=""
-                   FontSize="14"
+                   HorizontalOptions="Center"
                    TextColor="Red"
+                   Style="{StaticResource ExibirTexto}"
                    IsVisible="False" />
 
             <!-- Barra de progresso -->
@@ -50,31 +48,37 @@
 
             <!-- Entrada do código recebido -->
             <Label Text="Cole o código recebido por e-mail:"
-                   FontSize="16" />
-            <Entry x:Name="CodigoEntry"
+                   Margin="25,30,20,0"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="CodigoEntry"
                    Placeholder="Código"
-                   Keyboard="Numeric" />
+                   Keyboard="Numeric"
+                   Style="{StaticResource EntraTextoTrocaSenha}"/>
+            </Frame>
 
-            <!-- Nova senha -->
             <Label Text="Nova Senha:"
-                   FontSize="16" />
-            <Entry x:Name="NovaSenhaEntry"
-                   Placeholder="Nova Senha"
-                   IsPassword="True" />
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="NovaSenhaEntry"
+                       Placeholder="Nova Senha"
+                       IsPassword="True"
+                       Style="{StaticResource EntraTextoTrocaSenha}"/>
+            </Frame>
 
-            <!-- Confirmar nova senha -->
             <Label Text="Confirme a Nova Senha:"
-                   FontSize="16" />
-            <Entry x:Name="ConfirmarSenhaEntry"
-                   Placeholder="Confirme a Senha"
-                   IsPassword="True" />
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="ConfirmarSenhaEntry"
+                       Placeholder="Confirme a Senha"
+                       IsPassword="True"
+                       Style="{StaticResource EntraTextoTrocaSenha}"/>
+            </Frame>
 
             <!-- Botão para redefinir senha -->
             <Button Text="Redefinir Senha"
-                    BackgroundColor="#34C759"
-                    TextColor="White"
-                    CornerRadius="10"
-                   />
+                    BackgroundColor="#3e476c"
+                   Style="{StaticResource BotaoEsqueciSenha}" />
             <!--  Clicked="OnRedefinirSenhaClicked" -->
 
         </VerticalStackLayout>

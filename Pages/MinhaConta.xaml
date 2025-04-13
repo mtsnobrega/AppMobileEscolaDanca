@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMobileEscolaDanca.Pages.MinhaConta"
-             xmlns:views="clr-namespace:AppMobileEscolaDanca.Pages"
+             BackgroundColor="#fec7d7"
              Title="MinhaConta">
 
-    <views:MinhasFinancas Title="Perfil" IconImageSource="home_ico.png" />
-    <!-- 
-    <views:SenhaPage Title="Senha" IconImageSource="senha_icon.png" />
-    <views:DependentePage Title="Dependente" IconImageSource="dependente_icon.png" /> -->
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
 
-    <ContentPage
-    IconImageSource="home_ico.png"
-    NavigationPage.HasNavigationBar="False"
-    BackgroundColor="#fec7d7">
-        
-    </ContentPage>
+            <Label Text="Informações da Conta"
+                   Style="{StaticResource ExibirTextoTitulo}"/>
 
-    <ContentPage
-                IconImageSource="home_ico.png"
-                NavigationPage.HasNavigationBar="False"
-                BackgroundColor="#fec7d7">
-        
-    </ContentPage>
+            <!-- Dados de leitura -->
+            <Frame CornerRadius="12" Padding="15" BackgroundColor="White" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Entry x:Name="entryNome" Placeholder="Nome Completo" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
+                    <Entry x:Name="entryDataNascimento" Placeholder="Data de Nascimento" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
+                    <Entry x:Name="entryEmail" Placeholder="E-mail" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
+                    <Entry x:Name="entryCPF" Placeholder="CPF" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
+                </VerticalStackLayout>
+            </Frame>
 
-    <ContentPage
-IconImageSource="home_ico.png"
-NavigationPage.HasNavigationBar="False"
-BackgroundColor="#fec7d7"
-></ContentPage>
+            <!-- Dados editáveis -->
+            <Frame CornerRadius="12" Padding="15" BackgroundColor="White" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Entry x:Name="entryTelefone" Placeholder="Telefone" Style="{StaticResource ExibirTextoInfoConta}" />
 
-</TabbedPage>
+                    <Label Text="Informações da Conta"
+                           Style="{StaticResource ExibirTexto}" FontSize="13" Margin="10,0,20,0"/>
+                    <Picker x:Name="pickerGenero" BackgroundColor="{StaticResource RosaClaro}" Style="{StaticResource ExibirTextoInfoConta}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Masculino</x:String>
+                                <x:String>Feminino</x:String>
+                                <x:String>Outro</x:String>
+                                <x:String>Prefiro não informar</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Ações -->
+            <VerticalStackLayout Spacing="12">
+                <Button Text="Salvar Alterações"
+                        Style="{StaticResource PadraoBotao}"
+                        Clicked="OnSalvarClicked" />
+
+                <Button Text="Alterar Senha"
+                        Style="{StaticResource PadraoBotao}"
+                        Clicked="OnAlterarSenhaClicked" />
+
+                <Button Text="Cancelar"
+                        Style="{StaticResource PadraoBotao}"
+                        Clicked="OnCancelarClicked" />
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

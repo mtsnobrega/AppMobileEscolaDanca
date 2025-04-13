@@ -41,7 +41,7 @@ public partial class EsqueciSenha : ContentPage
 
         // lógica real de envio
         // Sucesso simulado:
-        MostrarMensagem("Código enviado com sucesso! Verifique seu e-mail.", true);
+        MostrarMensagem($"Código enviado com sucesso! Verifique seu e-mail.", true);
     }
 
     private void MostrarMensagem(string mensagem, bool sucesso)

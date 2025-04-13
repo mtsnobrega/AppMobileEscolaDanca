@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\cadastrousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\cadastrousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\resources\\styles\\frontend_styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:resources\\styles\\frontend_styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\alterarsenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\alterarsenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\esquecisenha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\esquecisenha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\esquecisenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\esquecisenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 329,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,54 +46,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:58:12.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
+              "Title": "CadastroUsuario.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\CadastroUsuario.xaml",
+              "RelativeDocumentMoniker": "Pages\\CadastroUsuario.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\CadastroUsuario.xaml",
+              "RelativeToolTip": "Pages\\CadastroUsuario.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-08T22:48:52.906Z",
+              "WhenOpened": "2025-04-13T05:43:08.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EsqueciSenha.xaml.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\EsqueciSenha.xaml.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml.cs",
-              "RelativeToolTip": "Pages\\EsqueciSenha.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:53:27.902Z",
+              "DocumentIndex": 1,
+              "Title": "FrontEnd_Styles.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Resources\\Styles\\FrontEnd_Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\FrontEnd_Styles.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Resources\\Styles\\FrontEnd_Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\FrontEnd_Styles.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T05:52:26.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EsqueciSenha.xaml",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml",
-              "RelativeDocumentMoniker": "Pages\\EsqueciSenha.xaml",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\EsqueciSenha.xaml",
-              "RelativeToolTip": "Pages\\EsqueciSenha.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-08T22:48:09.162Z",
+              "WhenOpened": "2025-04-13T05:45:17.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlterarSenha.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\AlterarSenha.xaml",
+              "RelativeDocumentMoniker": "Pages\\AlterarSenha.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\AlterarSenha.xaml",
+              "RelativeToolTip": "Pages\\AlterarSenha.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T05:43:33.375Z",
               "EditorCaption": ""
             }
           ]

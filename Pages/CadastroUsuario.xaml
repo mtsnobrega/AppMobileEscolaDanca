@@ -4,72 +4,94 @@
              x:Class="AppMobileEscolaDanca.Pages.CadastroUsuario"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              Title="CadastroUsuario">
-    <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="15">
 
-            <Label Text="Cadastro de Aluno"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center" />
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
+            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="5">
+
+            <Label Text="Cadastro de Novo Aluno"
+                   Style="{StaticResource ExibirTextoTitulo}"/>
 
             <!-- Nome completo -->
-            <Label Text="Nome completo:" />
-            <Entry x:Name="NomeEntry"
+            <Label Text="Nome completo:"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="NomeEntry"
+                   Style="{StaticResource EntraTextoTrocaSenha}"
                    Placeholder="Digite seu nome completo" />
+            </Frame>
 
             <!-- Data de nascimento -->
-            <Label Text="Data de nascimento:" />
+            <Label Text="Data de nascimento:"
+                   Style="{StaticResource ExibirTexto}"/>
             <DatePicker x:Name="NascimentoPicker"
+                        Margin="20,0,0,0"
+                        FontSize="14"
+                        BackgroundColor="#3e476c"
+                        TextColor="White"
+                        FontAttributes="Bold"
                         MaximumDate="{x:Static sys:DateTime.Now}" />
 
             <!-- E-mail -->
-            <Label Text="E-mail:" />
-            <Entry x:Name="EmailEntry"
+            <Label Text="E-mail:"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="EmailEntry"
+                   Style="{StaticResource EntraTextoTrocaSenha}"
                    Placeholder="exemplo@email.com"
                    Keyboard="Email" />
+            </Frame>
 
             <!-- CPF -->
-            <Label Text="CPF:" />
-            <Entry x:Name="CpfEntry"
+            <Label Text="CPF:"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="CpfEntry"
+                   Style="{StaticResource EntraTextoTrocaSenha}"
                    Placeholder="Digite seu CPF"
                    Keyboard="Numeric" />
+            </Frame>
 
             <!-- Telefone -->
-            <Label Text="Telefone:" />
-            <Entry x:Name="TelefoneEntry"
+            <Label Text="Telefone:"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="TelefoneEntry"
+                   Style="{StaticResource EntraTextoTrocaSenha}"
                    Placeholder="(00) 00000-0000"
                    Keyboard="Telephone" />
-
-            <!-- Gênero -->
-            <Label Text="Gênero:" />
-            <Picker x:Name="GeneroPicker"
-                    Title="Selecione">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Feminino</x:String>
-                        <x:String>Masculino</x:String>
-                        <x:String>Outro</x:String>
-                        <x:String>Prefiro não dizer</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
+            </Frame>
 
             <!-- Senha -->
-            <Label Text="Senha:" />
-            <Entry x:Name="SenhaEntry"
+            <Label Text="Senha:"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="SenhaEntry"
+                   Style="{StaticResource EntraTextoTrocaSenha}"
                    Placeholder="Crie uma senha"
                    IsPassword="True" />
+            </Frame>
 
             <!-- Confirmar senha -->
-            <Label Text="Confirmar Senha:" />
-            <Entry x:Name="ConfirmarSenhaEntry"
+            <Label Text="Confirmar Senha:"
+                   Style="{StaticResource ExibirTexto}"/>
+            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="ConfirmarSenhaEntry"
+                   Style="{StaticResource EntraTextoTrocaSenha}"
                    Placeholder="Repita a senha"
                    IsPassword="True" />
+            </Frame>
 
             <!-- Botão de cadastro -->
             <Button Text="Cadastrar"
-                    BackgroundColor="#34C759"
-                    TextColor="White"
+                    Style="{StaticResource BotaoEsqueciSenha}" 
                     CornerRadius="10"
                     Clicked="OnCadastrarClicked" />
 

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppMobileEscolaDanca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d5105ab129616186ae02cfc7cf92be0dbf61c502")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppMobileEscolaDanca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppMobileEscolaDanca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

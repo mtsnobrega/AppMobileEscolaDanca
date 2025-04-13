@@ -18,7 +18,7 @@
             <StackLayout Padding="0" Spacing="20" >
                 <Image Source="dotnet_bot.png"
                          WidthRequest="300"
-                         HeightRequest="300"
+                         HeightRequest="220"
                          HorizontalOptions="Center"
                          Margin="0,0,0,10"/>
 
@@ -31,7 +31,7 @@
                         <Frame Grid.ColumnSpan="2" CornerRadius="30" Padding="0" BackgroundColor="White" BorderColor="#3e476c">
                             <Entry Placeholder="Digite seu e-mail"
                                    x:Name="CampoEmail"
-                                   Style="{StaticResource EntraTexto}"/>
+                                   Style="{StaticResource EntraTextoLogin}"/>
                         </Frame>
                         <ImageButton Grid.Column="1" 
                                      Margin="0,0,15,0"
@@ -49,7 +49,7 @@
                             <Entry x:Name="EntradaSenha" 
                                    Placeholder="Digite sua senha"
                                    IsPassword="True"
-                                   Style="{StaticResource EntraTexto}"/>
+                                   Style="{StaticResource EntraTextoLogin}"/>
                         </Frame>
                         <ImageButton Grid.Column="1" 
                                      Margin="0,0,15,0"
@@ -73,6 +73,24 @@
 
 
                 </StackLayout>
+
+                <StackLayout Margin="20,0,20,0">
+                    <Label x:Name="MensagemLogin"
+                           Text=""
+                           FontSize="14"
+                           TextColor="Red"
+                           HorizontalOptions="Center"
+                           IsVisible="False" />
+
+                    <!-- Barra de progresso -->
+                    <ProgressBar x:Name="EnvioProgressBar"
+                                 Progress="0"
+                                 HeightRequest="4"
+                                 IsVisible="False"
+                                 ProgressColor="#007AFF" />
+
+                </StackLayout>
+                
 
                 <Grid ColumnDefinitions="*,Auto" Margin="10,20,10,0">
                     <Button 
@@ -107,18 +125,7 @@
                 </StackLayout>
 
 
-                <Label x:Name="MensagemLogin"
-                       Text=""
-                       FontSize="14"
-                       TextColor="Red"
-                       IsVisible="False" />
-
-                <!-- Barra de progresso -->
-                <ProgressBar x:Name="EnvioProgressBar"
-                             Progress="0"
-                             HeightRequest="4"
-                             IsVisible="False"
-                             ProgressColor="#007AFF" />
+                
 
 
             </StackLayout>
