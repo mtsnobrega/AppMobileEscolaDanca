@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMobileEscolaDanca.Pages.EsqueciSenha"
-             Title="EsqueciSenha">
+             Shell.BackgroundColor ="#cdb4db">
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
@@ -12,13 +12,13 @@
     </ContentPage.Background>
 
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="5">
-
+        <VerticalStackLayout Padding="20,0,20,0" Spacing="5">
             <Label Text="Recuperação de Senha"
                    Style="{StaticResource ExibirTextoTitulo}"/>
 
             <Label Text="Digite seu e-mail cadastrado:"
                    Style="{StaticResource ExibirTexto}"/>
+            
             <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
                 <Entry x:Name="EmailEntry"
                        Style="{StaticResource EntraTextoTrocaSenha}"
@@ -47,8 +47,8 @@
                          ProgressColor="#007AFF" />
 
             <!-- Entrada do código recebido -->
-            <Label Text="Cole o código recebido por e-mail:"
-                   Margin="25,30,20,0"
+            <Label Text="Código recebido por e-mail:"
+                   Margin="25,40,20,0"
                    Style="{StaticResource ExibirTexto}"/>
             <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
                 <Entry x:Name="CodigoEntry"
@@ -77,10 +77,8 @@
 
             <!-- Botão para redefinir senha -->
             <Button Text="Redefinir Senha"
-                    BackgroundColor="#3e476c"
-                   Style="{StaticResource BotaoEsqueciSenha}" />
-            <!--  Clicked="OnRedefinirSenhaClicked" -->
-
+                    Clicked="RedefinirSenha_Click"
+                    Style="{StaticResource BotaoEsqueciSenha}"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

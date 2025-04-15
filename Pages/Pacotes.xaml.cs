@@ -5,8 +5,6 @@ public partial class Pacotes : ContentPage
 	public Pacotes()
 	{
 		InitializeComponent();
-        NavigationPage.SetHasNavigationBar(this, false);
-
         listaprodutos.ItemsSource = new List<Classes.Produtos>
         {
              new Classes.Produtos

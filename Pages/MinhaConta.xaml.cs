@@ -5,7 +5,6 @@ public partial class MinhaConta : ContentPage
 	public MinhaConta()
 	{
 		InitializeComponent();
-        NavigationPage.SetHasNavigationBar(this, false);
     }
 
     //Salvar alterações no banco

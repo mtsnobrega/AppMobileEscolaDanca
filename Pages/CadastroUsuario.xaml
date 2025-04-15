@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMobileEscolaDanca.Pages.CadastroUsuario"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
-             Title="CadastroUsuario">
+             Shell.BackgroundColor ="#cdb4db">
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
@@ -12,13 +12,11 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
-
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="5">
-
+        <VerticalStackLayout Padding="20,0" Spacing="5">
             <Label Text="Cadastro de Novo Aluno"
                    Style="{StaticResource ExibirTextoTitulo}"/>
-
+            
             <!-- Nome completo -->
             <Label Text="Nome completo:"
                    Style="{StaticResource ExibirTexto}"/>
@@ -31,14 +29,15 @@
             <!-- Data de nascimento -->
             <Label Text="Data de nascimento:"
                    Style="{StaticResource ExibirTexto}"/>
-            <DatePicker x:Name="NascimentoPicker"
-                        Margin="20,0,0,0"
-                        FontSize="14"
-                        BackgroundColor="#3e476c"
-                        TextColor="White"
-                        FontAttributes="Bold"
-                        MaximumDate="{x:Static sys:DateTime.Now}" />
-
+            <Frame BackgroundColor="White" Margin="20,0,20,0" MaximumWidthRequest="250"  HorizontalOptions="Start" Padding="3">
+                <DatePicker x:Name="NascimentoPicker"
+                            FontSize="14"
+                            BackgroundColor="White"
+                            CharacterSpacing="5"
+                            TextColor="Black"
+                            MaximumDate="{x:Static sys:DateTime.Now}" />
+            </Frame>
+            
             <!-- E-mail -->
             <Label Text="E-mail:"
                    Style="{StaticResource ExibirTexto}"/>
@@ -94,7 +93,6 @@
                     Style="{StaticResource BotaoEsqueciSenha}" 
                     CornerRadius="10"
                     Clicked="OnCadastrarClicked" />
-
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

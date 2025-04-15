@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMobileEscolaDanca.Pages.MinhaConta"
+             Shell.BackgroundColor ="#fec7d7"
              BackgroundColor="#fec7d7"
-             Title="MinhaConta">
+             Shell.TabBarIsVisible="False">
 
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
+        <VerticalStackLayout Padding="20,0" Spacing="20">
 
             <Label Text="Informações da Conta"
                    Style="{StaticResource ExibirTextoTitulo}"/>
@@ -14,35 +15,22 @@
             <!-- Dados de leitura -->
             <Frame CornerRadius="12" Padding="15" BackgroundColor="White" HasShadow="True">
                 <VerticalStackLayout Spacing="10">
-                    <Entry x:Name="entryNome" Placeholder="Nome Completo" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
-                    <Entry x:Name="entryDataNascimento" Placeholder="Data de Nascimento" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
-                    <Entry x:Name="entryEmail" Placeholder="E-mail" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
                     <Entry x:Name="entryCPF" Placeholder="CPF" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
+                    <Entry x:Name="entryDataNascimento" Placeholder="Data de Nascimento" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </VerticalStackLayout>
             </Frame>
 
             <!-- Dados editáveis -->
             <Frame CornerRadius="12" Padding="15" BackgroundColor="White" HasShadow="True">
                 <VerticalStackLayout Spacing="10">
-                    <Entry x:Name="entryTelefone" Placeholder="Telefone" Style="{StaticResource ExibirTextoInfoConta}" />
-
-                    <Label Text="Informações da Conta"
-                           Style="{StaticResource ExibirTexto}" FontSize="13" Margin="10,0,20,0"/>
-                    <Picker x:Name="pickerGenero" BackgroundColor="{StaticResource RosaClaro}" Style="{StaticResource ExibirTextoInfoConta}">
-                        <Picker.ItemsSource>
-                            <x:Array Type="{x:Type x:String}">
-                                <x:String>Masculino</x:String>
-                                <x:String>Feminino</x:String>
-                                <x:String>Outro</x:String>
-                                <x:String>Prefiro não informar</x:String>
-                            </x:Array>
-                        </Picker.ItemsSource>
-                    </Picker>
+                    <Entry x:Name="entryNome" Placeholder="Nome Completo" Style="{StaticResource ExibirTextoInfoConta}"/>
+                    <Entry x:Name="entryEmail" Placeholder="E-mail"  Style="{StaticResource ExibirTextoInfoConta}"/>
+                    <Entry x:Name="entryTelefone" Placeholder="Telefone" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </VerticalStackLayout>
             </Frame>
 
             <!-- Ações -->
-            <VerticalStackLayout Spacing="12">
+            <VerticalStackLayout Margin="0,30,0,0" Spacing="12">
                 <Button Text="Salvar Alterações"
                         Style="{StaticResource PadraoBotao}"
                         Clicked="OnSalvarClicked" />

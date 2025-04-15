@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppMobileEscolaDanca.MainPage">
+             x:Class="AppMobileEscolaDanca.Pages.MainPage">
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
@@ -10,22 +10,35 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
-
-    <ScrollView  >
-
+    <ScrollView>
         <VerticalStackLayout VerticalOptions="Start">
-            
             <StackLayout Padding="0" Spacing="20" >
                 <Image Source="dotnet_bot.png"
                          WidthRequest="300"
                          HeightRequest="220"
                          HorizontalOptions="Center"
-                         Margin="0,0,0,10"/>
+                         Margin="0,10,0,30"/>
 
-                <StackLayout Spacing="5"  Margin="10,0,10,0">
-                    
+                <!-- Barra de progresso -->
+                <StackLayout Margin="20,0,20,0">
+                    <Label x:Name="MensagemLogin"
+                           Text=""
+                           FontSize="14"
+                           TextColor="Red"
+                           HorizontalOptions="Center"
+                           IsVisible="False" />
+
+                    <ProgressBar x:Name="EnvioProgressBar"
+                                 Progress="0"
+                                 HeightRequest="4"
+                                 IsVisible="False"
+                                 ProgressColor="#007AFF"/>
+                </StackLayout>
+
+                <!-- Conteiner Login -->
+                <StackLayout Spacing="5"  Margin="20,10,20,0">
                     <Label Text="E-mail"
-                               Style="{StaticResource ExibirTexto}"/>
+                           Style="{StaticResource ExibirTexto}"/>
 
                     <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
                         <Frame Grid.ColumnSpan="2" CornerRadius="30" Padding="0" BackgroundColor="White" BorderColor="#3e476c">
@@ -61,77 +74,36 @@
                     </Grid>
 
                     <Button x:Name = "EsqSenha"
-                           Clicked="BtnEsqSenha_Clicked"
-                           Text="Esqueci a senha "
-                           HorizontalOptions="End"
-                           TextColor="#0e172c"
-                           FontSize="15"
-                           FontFamily="Montserrat"
-                           BackgroundColor="Transparent"
-                           Margin="0,0,0,0"
-                           Padding="5"/>
-
-
+                            Clicked="BtnEsqSenha_Clicked"
+                            Text="Esqueci a Senha"
+                            Style="{StaticResource ExibirTexto}"
+                            HorizontalOptions="End"
+                            FontSize="15"
+                            BackgroundColor="Transparent"
+                            Margin="0,0,0,0"
+                            Padding="5"/>
                 </StackLayout>
 
-                <StackLayout Margin="20,0,20,0">
-                    <Label x:Name="MensagemLogin"
-                           Text=""
-                           FontSize="14"
-                           TextColor="Red"
-                           HorizontalOptions="Center"
-                           IsVisible="False" />
-
-                    <!-- Barra de progresso -->
-                    <ProgressBar x:Name="EnvioProgressBar"
-                                 Progress="0"
-                                 HeightRequest="4"
-                                 IsVisible="False"
-                                 ProgressColor="#007AFF" />
-
+                <!-- Botão de login -->
+                <StackLayout Margin="20,20,20,0">
+                    <Button x:Name="btnlogin"
+                            Clicked="Btnlogin_Clicked"
+                            Text="Login"
+                            WidthRequest="250"
+                            MaximumWidthRequest="400"
+                            Style="{StaticResource BotaoLogin}"
+                            HorizontalOptions="Center"/>
                 </StackLayout>
-                
-
-                <Grid ColumnDefinitions="*,Auto" Margin="10,20,10,0">
-                    <Button 
-                        Text="Login com Google"
-                        ImageSource="google_ico.png"
-                        ContentLayout="Left,5"
-                        HeightRequest="50"
-                        FontSize="16"
-                        Style="{StaticResource BotaoLogin}"
-                        Grid.Column="0"
-                        HorizontalOptions="Start"/>
-
-                    <Button
-                        x:Name="btnlogin"
-                        Clicked="Btnlogin_Clicked"
-                        Text="Login"
-                        WidthRequest="120"
-                        Style="{StaticResource BotaoLogin}"
-                        Grid.Column="1"
-                        HorizontalOptions="End"/>
-                </Grid>
 
                 <StackLayout Orientation="Horizontal" FlowDirection="LeftToRight" HorizontalOptions="Center" Spacing="10" Margin="0,10,0,0">
-                    <Button
-                        x:Name="btncadastro"
-                        Clicked="BtnCadastro_Clicked"
-                        Text="Não tem cadastro? Clique Aqui"
-                        HeightRequest="50"
-                        BackgroundColor="Transparent"
-                        FontSize="15"/>
-
+                    <Button x:Name="btncadastro"
+                            Clicked="BtnCadastro_Clicked"
+                            Text="Não tem cadastro? Clique Aqui"
+                            Style="{StaticResource ExibirTexto}"
+                            FontSize="15"
+                            BackgroundColor="Transparent"/>
                 </StackLayout>
-
-
-                
-
-
             </StackLayout>
-
         </VerticalStackLayout>
-
     </ScrollView>
-
 </ContentPage>

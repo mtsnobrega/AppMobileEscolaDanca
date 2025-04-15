@@ -6,11 +6,11 @@
 
     <!-- style para label exibindo texto para titulo-->
     <Style x:Key="ExibirTextoTitulo" TargetType="Label">
-        <Setter Property="Margin" Value="20,20,20,30"/>
+        <Setter Property="Margin" Value="20,0,20,30"/>
         <Setter Property="FontAttributes" Value="Bold"/>
         <Setter Property="FontFamily" Value="Montserrat"/>
         <Setter Property="TextColor" Value="#0e172c"/>
-        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontSize" Value="22"/>
         <Setter Property="HorizontalOptions" Value="Center"/>
     </Style>
 
@@ -20,7 +20,7 @@
         <Setter Property="FontAttributes" Value="Bold"/>
         <Setter Property="FontFamily" Value="Montserrat"/>
         <Setter Property="TextColor" Value="#0e172c"/>
-        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontSize" Value="16"/>
     </Style>
 
     <!-- style para entry na tela de login -->
@@ -46,14 +46,13 @@
 
     <!-- style para entry na tela de recuperação de senha -->
     <Style x:Key="EntraTextoTrocaSenha" TargetType="Entry">
-        <Setter Property="FontSize" Value="13"/>
+        <Setter Property="FontSize" Value="15"/>
         <Setter Property="FontFamily" Value="Montserrat"/>
         <Setter Property="TextColor" Value="Black"/>
         <Setter Property="FontAttributes" Value="Bold"/>
         <Setter Property="BackgroundColor" Value="Transparent"/>
         <Setter Property="Margin" Value="20,0,20,0"/>
     </Style>
-
 
     <!-- style para button para todo app após o login -->
     <Style x:Key="PadraoBotao" TargetType="Button">
@@ -63,6 +62,7 @@
         <Setter Property="CornerRadius" Value="10"/>
         <Setter Property="FontSize" Value="18"/>
         <Setter Property="FontFamily" Value="Montserrat"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
         <Setter Property="TextColor" Value="White"/>
         <Setter Property="Margin" Value="40,5,40,0"/>
     </Style>
@@ -77,8 +77,5 @@
         <Setter Property="Margin" Value="0,0,0,0"/>
         <Setter Property="TextColor" Value="#0e172c"/>
     </Style>
-
-
-
 </ResourceDictionary>
 

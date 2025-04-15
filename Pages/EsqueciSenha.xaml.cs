@@ -8,7 +8,6 @@ public partial class EsqueciSenha : ContentPage
 	public EsqueciSenha()
 	{
 		InitializeComponent();
-        NavigationPage.SetHasNavigationBar(this, false);
     }
 
     private async void OnEnviarCodigoClicked(object sender, EventArgs e)
@@ -58,5 +57,10 @@ public partial class EsqueciSenha : ContentPage
         return Regex.IsMatch(email,
             @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
             RegexOptions.IgnoreCase);
+    }
+
+    private void RedefinirSenha_Click(object sender, EventArgs e)
+    {
+
     }
 }

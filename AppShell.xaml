@@ -7,11 +7,25 @@
     xmlns:views="clr-namespace:AppMobileEscolaDanca.Pages"
     Shell.FlyoutBehavior="Disabled"
     Title="AppMobileEscolaDanca">
+    
+    <!-- Definindo a MainPage(login) como primeira pagina-->
+    <ShellContent
+        Route="login"
+        ContentTemplate="{DataTemplate views:MainPage}" />
 
-    <TabBar Route="Home">
+    <!-- Configurando as paginas que serão exibidas com divisão de menu-->
+    <TabBar>
         <ShellContent
-     Title="Home"
-     ContentTemplate="{DataTemplate views:Home}" />
+            Title="Home"
+            ContentTemplate="{DataTemplate views:HomePage}"
+            Route="home"
+            Shell.NavBarIsVisible="False" />
+
+        <ShellContent
+            Title="ListaPacotes"
+            ContentTemplate="{DataTemplate views:ListaPacotesAdquiridos}"
+            Route="listapacotes" />
     </TabBar>
+
 
 </Shell>

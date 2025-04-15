@@ -2,15 +2,63 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMobileEscolaDanca.Pages.MinhasFinancas"
-             Title="MinhasFinancas">
+             Shell.TabBarIsVisible="False"
+             Shell.BackgroundColor ="#cdb4db">
 
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
+            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="5">
+            <Label Text="Pacotes Ativos"
+                   Style="{StaticResource ExibirTextoTitulo}"
+                   Margin="20,0"/>
+            
+            <StackLayout Padding="20" Spacing="15">
+                <CollectionView x:Name="listaPacotes" SelectionMode="None">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="5" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate >
+                        <DataTemplate>
+                            <Frame Padding="15" CornerRadius="12" BackgroundColor="White" HasShadow="True">
+                                <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto">
+                                    <Label Grid.Column="0" Grid.Row="0"
+                                           Text="{Binding Nome}" 
+                                           FontSize="18" 
+                                           FontAttributes="Bold"
+                                           TextColor="#333"/>
 
+                                    <Label Grid.Column="0" Grid.Row="1"
+                                           Text="{Binding Valor, StringFormat='Valor: R${0:F2}'}" 
+                                           TextColor="#666" 
+                                           FontSize="14"/>
+
+                                    <Label Grid.Column="0" Grid.Row="2"
+                                           Text="{Binding DataVencimento, StringFormat='Vencimento: {0:dd/MM/yyyy}'}" 
+                                           TextColor="#666" 
+                                           FontSize="14"/>
+
+                                    <!-- Botão com ícone de seta -->
+                                    <ImageButton Grid.Column="1" Grid.RowSpan="3"
+                                         Source="seta_detalhes.png"
+                                         BackgroundColor="Transparent"
+                                         Clicked="DetalesPacote_Click"
+                                         CommandParameter="{Binding .}"
+                                         WidthRequest="24"
+                                         HeightRequest="24"
+                                         HorizontalOptions="End"
+                                         VerticalOptions="Center"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
         </VerticalStackLayout>
     </ScrollView>
-                
-
-
 </ContentPage>

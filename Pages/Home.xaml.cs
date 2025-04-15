@@ -75,44 +75,27 @@ public partial class Home : TabbedPage
                 }
         };
     }
-    
 
+
+    //Definindo a imagem padrão do sistema
+    //IMPLEMENTAR LOGICA QUE PERMITE ESCOLHER IMAGEM PADRÃO E SALVAR A ESCOLHA NO BANCO
     private void LoadDefaultProfileImage()
     {
         ProfileImage.Source = ImageSource.FromFile(predefinedImages[currentImageIndex]);
     }
 
-
+    //Definir a imagem de perfil do usuario
     private async void OnChangePhotoClicked(object sender, EventArgs e)
     {
-        string action = await DisplayActionSheet("Escolha uma opção", "Cancelar", null, "Usar Imagem Padrão", "Selecionar da Galeria");
+        string action = await DisplayActionSheet("Escolha uma opção", "Cancelar", null, "Usar Imagem Padrão");
 
         if (action == "Usar Imagem Padrão")
         {
             currentImageIndex = (currentImageIndex + 1) % predefinedImages.Length;
             ProfileImage.Source = ImageSource.FromFile(predefinedImages[currentImageIndex]);
         }
-        else if (action == "Selecionar da Galeria")
-        {
-            var fileResult = await FilePicker.PickAsync(new PickOptions
-            {
-                FileTypes = FilePickerFileType.Images,
-                PickerTitle = "Escolha uma foto"
-            });
-            if (fileResult != null)
-            {
-                Console.WriteLine("Caminho do arquivo: " + fileResult.FullPath);
-            }
-            else
-            {
-                Console.WriteLine("Nenhum arquivo selecionado.");
-            }
-    
-        }
     }
   
-
-
     //Navegação para outras paginas
     private async void BtnMinhaConta_Clicked(object sender, EventArgs e)
     {
@@ -120,7 +103,7 @@ public partial class Home : TabbedPage
     }
     private async void BtnMinhasFinancas_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Pages.MinhasFinancas());
+        await Navigation.PushAsync(new Pages.MinhasFinancas(), false);
     }
     private async void BtnNovosPacotes_Clicked(object sender, EventArgs e)
     {
@@ -193,12 +176,5 @@ public partial class Home : TabbedPage
             aulas--;
             AtualizarProgresso();
         }
-    }
-
-    private async void OnComprarClicked(object sender, EventArgs e)
-    {
-        await DisplayActionSheet("Escolha uma opção", "Cancelar", null, "Usar Imagem Padrão", "Selecionar da Galeria");
-    }
-
-    
+    } 
 }

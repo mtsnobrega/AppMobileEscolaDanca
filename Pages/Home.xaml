@@ -174,7 +174,7 @@
 
 
                 <!-- Navegação para comprar novos pacotes, finanças e minha conta -->
-                <VerticalStackLayout Spacing="12" Margin="0,20,0,0">
+                <VerticalStackLayout Spacing="12" Margin="0,30,0,0">
                     <Button Text="Novos Pacotes"
                             Clicked="BtnNovosPacotes_Clicked"
                             Style="{StaticResource PadraoBotao}"

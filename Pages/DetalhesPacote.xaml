@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.TabBarIsVisible="False"
+             x:Class="AppMobileEscolaDanca.Pages.DetalhesPacote"
+             Shell.BackgroundColor ="#cdb4db">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
+            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <Label Text="Informações Detalhadas"
+                   Style="{StaticResource ExibirTextoTitulo}"/>
+
+            <Label Text="{Binding Nome}"
+                   Style="{StaticResource ExibirTextoTitulo}"
+                   FontSize="26" 
+                   FontAttributes="Bold"
+                   TextColor="#0e172c" />
+
+            <Label Text="{Binding Descricao}" 
+                   FontSize="16" 
+                   TextColor="#4a4a4a" />
+
+            <Frame BackgroundColor="#ffffff" Padding="15" CornerRadius="10" HasShadow="True">
+                <StackLayout Spacing="10">
+                    <Label Text="{Binding Duracao, StringFormat='Duração: {0}'}" FontSize="14" TextColor="#333" />
+                    <Label Text="{Binding DataVencimento, StringFormat='Vencimento: {0:dd/MM/yyyy}'}" FontSize="14" TextColor="#333" />
+                    <Label Text="{Binding Valor, StringFormat='Valor: R${0:F2}'}" FontSize="14" TextColor="#333" />
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Renovar Pacote"
+                    Style="{StaticResource PadraoBotao}"
+                    Clicked="OnRenovarClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

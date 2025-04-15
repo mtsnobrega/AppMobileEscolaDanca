@@ -202,9 +202,6 @@
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cadastro_ico.scale-100.png">
-      <PackagePath>cadastro_ico.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\credit_card.scale-100.png">
       <PackagePath>credit_card.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -252,6 +249,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pode_olhar.scale-100.png">
       <PackagePath>pode_olhar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\seta_detalhes.scale-100.png">
+      <PackagePath>seta_detalhes.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\thanossmile.scale-100.jpg">
       <PackagePath>thanossmile.scale-100.jpg</PackagePath>

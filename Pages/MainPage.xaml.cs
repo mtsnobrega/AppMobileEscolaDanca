@@ -1,7 +1,7 @@
 ﻿using Microsoft.Maui.ApplicationModel.Communication;
 using System.Text.RegularExpressions;
 
-namespace AppMobileEscolaDanca
+namespace AppMobileEscolaDanca.Pages
 {
     public partial class MainPage : ContentPage
     {
@@ -13,17 +13,7 @@ namespace AppMobileEscolaDanca
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void MostrarMensagem(string mensagem, bool sucesso)
-        {
-            MensagemLogin.Text = mensagem;
-            MensagemLogin.TextColor = sucesso ? Colors.Green : Colors.Red;
-            MensagemLogin.IsVisible = true;
-            EnvioProgressBar.IsVisible = false;
-        }
-
-
-
-
+        //Navegação entre paginas
         private async void Btnlogin_Clicked(object sender, EventArgs e)
         {
             MensagemLogin.IsVisible = false;
@@ -54,14 +44,35 @@ namespace AppMobileEscolaDanca
             // lógica real de envio
             // Sucesso simulado:
             MostrarMensagem("Código enviado com sucesso! Verifique seu e-mail.", true);
-            await Navigation.PushAsync(new Pages.Home());
+            
+            await Shell.Current.GoToAsync("//home");
 
         }
 
+        private async void BtnEsqSenha_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("EsqueciSenha");
+        }
         private async void BtnCadastro_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Pages.CadastroUsuario());
+            await Shell.Current.GoToAsync("CadUsuario");
         }
+
+
+        private void MostrarMensagem(string mensagem, bool sucesso)
+        {
+            MensagemLogin.Text = mensagem;
+            MensagemLogin.TextColor = sucesso ? Colors.Green : Colors.Red;
+            MensagemLogin.IsVisible = true;
+            EnvioProgressBar.IsVisible = false;
+        }
+
+
+
+
+        
+
+        
 
 
 
@@ -73,10 +84,7 @@ namespace AppMobileEscolaDanca
             tiposenha.Source = EntradaSenha.IsPassword ? "pode_olhar.png" : "nao_pode_olhar.png";
         }
 
-        private async void BtnEsqSenha_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Pages.EsqueciSenha());
-        }
+        
     }
 
 }

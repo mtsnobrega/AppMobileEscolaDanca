@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobileEscolaDanca.Pages.HomePage"
+             BackgroundColor="#fec7d7"
+             x:Name="MainPageInstance">
+    <!-- ScrollView Principal-->
+        <ScrollView>
+
+            <!-- Conteiner Pricipal da pagina 1 -->
+        <VerticalStackLayout  Spacing="0">
+
+            <!-- Conteiner da imagem de perfil + botão para selecionar o tipo de imagem-->
+            <VerticalStackLayout Spacing="20" Padding="20">
+
+                <!-- Organizando a imagem de perfil e mensagem em uma div -->
+                <Grid >
+
+                    <!-- Configurando a grid onde ele tera duas colunas-->
+                    <Grid.ColumnDefinitions>
+                        <!-- Label -->
+                        <ColumnDefinition Width="*"/>
+                        <!-- Imagem perfil -->
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                            Grid.Column="0"
+                            Text="Bem vindo de volta, Fulano"
+                            Style="{StaticResource ExibirTextoTitulo}"
+                            VerticalOptions="Center"
+                            FontSize="18"/>
+
+                    <!-- Configurando imagem de perfil e o botão para trocar foto-->
+                    <Grid Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End">
+                        <Frame WidthRequest="150"
+                               HeightRequest="150"
+                               CornerRadius="75"
+                               Padding="0"
+                               IsClippedToBounds="True"
+                               BorderColor="Black"
+                               VerticalOptions="End">
+
+                            <Image x:Name="ProfileImage"
+                                   WidthRequest="150"
+                                   HeightRequest="150"
+                                   Aspect="AspectFill"/>
+                        </Frame>
+
+                        <ImageButton Source="pic.png"
+                                     Aspect="AspectFit"
+                                     Padding="5"
+                                     WidthRequest="40" HeightRequest="40" 
+                                     BackgroundColor="{StaticResource Roxo}" 
+                                     CornerRadius="20" 
+                                     BorderColor="Black" 
+                                     BorderWidth="2"
+                                     Clicked="OnChangePhotoClicked"
+                                     TranslationX="50"
+                                     TranslationY="50"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center"/>
+                    </Grid>
+                </Grid>
+            </VerticalStackLayout>
+
+            <!-- Conteiner que esta organizando a gameficação -->
+            <Frame CornerRadius="10"
+                       Padding="10"
+                       Margin="20,40"
+                       BackgroundColor="#f9f8fc"
+                       HasShadow="False"
+                       BorderColor="Black">
+
+                <VerticalStackLayout Spacing="20" Padding="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Exibição do texto da qtd de aulas -->
+                        <Label x:Name="labelAulas"
+                                   Text="Aulas Completas: 0/10"
+                                   Grid.Column="0"
+                                   Grid.Row="0"
+                                   Style="{StaticResource ExibirTexto}"
+                                   Margin="0,5"/>
+
+                        <!-- Barra de Progresso -->
+                        <Grid x:Name="Barraprogresso" 
+                                  Grid.Column="0"
+                                  Grid.Row="1"
+                                  VerticalOptions="End"
+                                  HorizontalOptions="Fill"
+                                  Margin="0,0,10,0"
+                                  SizeChanged="Barra_para_progredir">
+
+                            <!-- Barra de progresso backgroud-->
+                            <BoxView Color="{StaticResource Roxo}"
+                                         HeightRequest="20"
+                                         HorizontalOptions="Fill"
+                                         CornerRadius="0"/>
+
+                            <!-- Barra de progresso sobreposta(preenchimento) -->
+                            <BoxView x:Name="progressBar"
+                                         Color="{StaticResource Rosa}"
+                                         HeightRequest="20"
+                                         WidthRequest="0"
+                                         CornerRadius="0"
+                                         HorizontalOptions="Start"/>
+                        </Grid>
+
+                        <!-- Configurando a imagem da gameficação-->
+                        <Border Grid.RowSpan="2"
+                                 Grid.Column="1"
+                                    MaximumHeightRequest="90"
+                                    HeightRequest="90"
+                                    WidthRequest="120">
+                            <Image x:Name="ImageGame"
+                                   Source="julius.jpeg"
+                                   Aspect="AspectFill"
+                                   VerticalOptions="Start"
+                                   HorizontalOptions="End"/>
+                        </Border>
+                    </Grid>
+
+                    <!-- Botões que controlam a gameficação-->
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="Center"
+                                 Spacing="10">
+                        <Button Text="Completar Aula" BackgroundColor="#fec7d7" TextColor="#0e172c" FontFamily="Montserrat" FontAttributes="Bold" Clicked="OnAulaCompleta"/>
+                        <Button Text="Diminuir Aula" BackgroundColor="#fec7d7"  TextColor="#0e172c" FontFamily="Montserrat" FontAttributes="Bold" Clicked="OnAul"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Navegação para comprar novos pacotes, finanças e minha conta -->
+            <VerticalStackLayout Spacing="12" Margin="0,30,0,0">
+                <Button Text="Novos Pacotes"
+                        Clicked="BtnNovosPacotes_Clicked"
+                        Style="{StaticResource PadraoBotao}"/>
+
+                <Button Text="Minhas Finanças"
+                        Clicked="BtnMinhasFinancas_Clicked"
+                        Style="{StaticResource PadraoBotao}"/>
+
+                <Button Text="Minha Conta"
+                            Clicked="BtnMinhaConta_Clicked"
+                            Style="{StaticResource PadraoBotao}"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
