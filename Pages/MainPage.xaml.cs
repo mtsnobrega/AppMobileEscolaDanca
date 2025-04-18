@@ -81,7 +81,7 @@ namespace AppMobileEscolaDanca.Pages
             EntradaSenha.IsPassword = !EntradaSenha.IsPassword;
 
             var tiposenha = (ImageButton)sender;
-            tiposenha.Source = EntradaSenha.IsPassword ? "pode_olhar.png" : "nao_pode_olhar.png";
+            tiposenha.Source = EntradaSenha.IsPassword ? "nao_pode_olhar.png" : "pode_olhar.png";
         }
 
         

@@ -100,11 +100,9 @@ C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pode_olhar.scale-100.png
-C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista_ico.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\seta_detalhes.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_ico.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\thanossmile.scale-100.jpg
-C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\novidades_ico.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nao_pode_olhar.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
@@ -154,8 +152,6 @@ C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_ico.scale-100.png
-C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\person.scale-100.png
-C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\credit_card.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\julius.scale-100.jpeg
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\latrel.scale-100.jpg
@@ -193,3 +189,13 @@ C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\danca.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\enviar_email.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redefinir_senha.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cadastrar_new.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\positive.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\novos_pacotes.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_profile.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\recibo.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\alterar_senha.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\salvar.scale-100.png

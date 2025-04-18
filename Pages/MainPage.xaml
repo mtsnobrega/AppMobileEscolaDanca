@@ -68,7 +68,7 @@
                                      Margin="0,0,15,0"
                                      HeightRequest="30" 
                                      WidthRequest="30"
-                                     Source="pode_olhar.png"
+                                     Source="nao_pode_olhar.png"
                                      BackgroundColor="Transparent"
                                      Clicked="CliqueVerSenha"/>
                     </Grid>
@@ -87,10 +87,14 @@
                 <!-- Botão de login -->
                 <StackLayout Margin="20,20,20,0">
                     <Button x:Name="btnlogin"
+                            Padding="5"
                             Clicked="Btnlogin_Clicked"
                             Text="Login"
+                            ImageSource="danca.png"
+                            ContentLayout="50,Right"
                             WidthRequest="250"
                             MaximumWidthRequest="400"
+                            HeightRequest="60"
                             Style="{StaticResource BotaoLogin}"
                             HorizontalOptions="Center"/>
                 </StackLayout>

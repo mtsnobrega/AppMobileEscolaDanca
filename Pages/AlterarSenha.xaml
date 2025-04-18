@@ -50,6 +50,9 @@
                 <!-- Botão -->
                 <Button Text="Salvar"
                         Margin="40,0,40,20"
+                        ImageSource="salvar.png"
+                        ContentLayout="40,Right"
+                        FontSize="20"
                         Style="{StaticResource BotaoEsqueciSenha}"
                         Clicked="OnSalvarSenhaClicked" />
             </VerticalStackLayout>

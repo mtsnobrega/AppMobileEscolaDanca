@@ -17,12 +17,14 @@
     <TabBar>
         <ShellContent
             Title="Home"
+            Icon="home_ico.png"
             ContentTemplate="{DataTemplate views:HomePage}"
             Route="home"
             Shell.NavBarIsVisible="False" />
 
         <ShellContent
-            Title="ListaPacotes"
+            Title="Minhas Aulas"
+            Icon="danca.png"
             ContentTemplate="{DataTemplate views:ListaPacotesAdquiridos}"
             Route="listapacotes" />
     </TabBar>

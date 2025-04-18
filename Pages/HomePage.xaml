@@ -24,12 +24,12 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Label
-                            Grid.Column="0"
-                            Text="Bem vindo de volta, Fulano"
-                            Style="{StaticResource ExibirTextoTitulo}"
-                            VerticalOptions="Center"
-                            FontSize="18"/>
+                    <Label Grid.Column="0"
+                           Text="Bem vindo de volta, Fulano"
+                           Style="{StaticResource ExibirTextoTitulo}"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Start"
+                           FontSize="18"/>
 
                     <!-- Configurando imagem de perfil e o botão para trocar foto-->
                     <Grid Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End">
@@ -142,17 +142,23 @@
 
             <!-- Navegação para comprar novos pacotes, finanças e minha conta -->
             <VerticalStackLayout Spacing="12" Margin="0,30,0,0">
-                <Button Text="Novos Pacotes"
+                <Button Text="Novos Pacotes  "
                         Clicked="BtnNovosPacotes_Clicked"
+                        ImageSource="novos_pacotes.png"
+                        ContentLayout="40,Right"
                         Style="{StaticResource PadraoBotao}"/>
 
                 <Button Text="Minhas Finanças"
                         Clicked="BtnMinhasFinancas_Clicked"
+                        ImageSource="recibo.png"
+                        ContentLayout="20,Right"
                         Style="{StaticResource PadraoBotao}"/>
 
                 <Button Text="Minha Conta"
-                            Clicked="BtnMinhaConta_Clicked"
-                            Style="{StaticResource PadraoBotao}"/>
+                        Clicked="BtnMinhaConta_Clicked"
+                        ImageSource="user_profile.png"
+                        ContentLayout="55,Right"
+                        Style="{StaticResource PadraoBotao}"/>
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

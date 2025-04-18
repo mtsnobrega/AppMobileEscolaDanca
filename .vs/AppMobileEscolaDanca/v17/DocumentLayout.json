@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\alterarsenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\alterarsenha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\minhaconta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\minhaconta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\resources\\styles\\frontend_styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Resources\\Styles\\FrontEnd_Styles.xaml",
               "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Resources\\Styles\\FrontEnd_Styles.xaml",
               "RelativeToolTip": "Resources\\Styles\\FrontEnd_Styles.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-15T01:57:12.229Z",
               "IsPinned": true,
@@ -57,27 +57,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlterarSenha.xaml",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\AlterarSenha.xaml",
-              "RelativeDocumentMoniker": "Pages\\AlterarSenha.xaml",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\AlterarSenha.xaml",
-              "RelativeToolTip": "Pages\\AlterarSenha.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAAA5AAAAAAAAAA==",
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-15T03:54:02.449Z",
+              "WhenOpened": "2025-04-15T16:58:58.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MinhaConta.xaml",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MinhaConta.xaml",
-              "RelativeDocumentMoniker": "Pages\\MinhaConta.xaml",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MinhaConta.xaml",
-              "RelativeToolTip": "Pages\\MinhaConta.xaml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCAAAAAxAAAAAAAAAA==",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-15T03:52:06.664Z",
+              "WhenOpened": "2025-04-15T16:58:56.529Z",
               "EditorCaption": ""
             }
           ]

@@ -32,16 +32,22 @@
             <!-- Ações -->
             <VerticalStackLayout Margin="0,30,0,0" Spacing="12">
                 <Button Text="Salvar Alterações"
+                        ImageSource="salvar.png"
+                        ContentLayout="30,Right"
                         Style="{StaticResource PadraoBotao}"
                         Clicked="OnSalvarClicked" />
 
-                <Button Text="Alterar Senha"
+                <Button Text="Atualizar Senha"
+                        ImageSource="alterar_senha.png"
+                        ContentLayout="40,Right"
                         Style="{StaticResource PadraoBotao}"
                         Clicked="OnAlterarSenhaClicked" />
 
+                <!-- remover botão ou linkar para outra pagina 
                 <Button Text="Cancelar"
                         Style="{StaticResource PadraoBotao}"
                         Clicked="OnCancelarClicked" />
+                 -->
             </VerticalStackLayout>
 
         </VerticalStackLayout>

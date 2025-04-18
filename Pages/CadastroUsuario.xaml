@@ -92,6 +92,8 @@
             <Button Text="Cadastrar"
                     Style="{StaticResource BotaoEsqueciSenha}" 
                     CornerRadius="10"
+                    ImageSource="cadastrar_new.png"
+                    ContentLayout="20, Right"
                     Clicked="OnCadastrarClicked" />
         </VerticalStackLayout>
     </ScrollView>

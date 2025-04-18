@@ -29,6 +29,8 @@
             <!-- Botão de Envio do Email -->
             <Button Text="Enviar Código"
                     Clicked="OnEnviarCodigoClicked"
+                    ImageSource="enviar_email.png"
+                    ContentLayout="20, Right"
                     Style="{StaticResource BotaoEsqueciSenha}"/>
 
             <!-- Mensagens de erro ou sucesso -->
@@ -78,6 +80,8 @@
             <!-- Botão para redefinir senha -->
             <Button Text="Redefinir Senha"
                     Clicked="RedefinirSenha_Click"
+                    ImageSource="redefinir_senha.png"
+                    ContentLayout="20, Right"
                     Style="{StaticResource BotaoEsqueciSenha}"/>
         </VerticalStackLayout>
     </ScrollView>
