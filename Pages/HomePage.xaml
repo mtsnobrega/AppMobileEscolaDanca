@@ -25,7 +25,8 @@
                     </Grid.ColumnDefinitions>
 
                     <Label Grid.Column="0"
-                           Text="Bem vindo de volta, Fulano"
+                           x:Name="Saudacao"
+                           Text="Bem vindo de volta"
                            Style="{StaticResource ExibirTextoTitulo}"
                            VerticalOptions="Center"
                            HorizontalOptions="Start"

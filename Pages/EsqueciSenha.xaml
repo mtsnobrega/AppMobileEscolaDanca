@@ -12,7 +12,23 @@
     </ContentPage.Background>
 
     <ScrollView>
-        <VerticalStackLayout Padding="20,0,20,0" Spacing="5">
+        <VerticalStackLayout Padding="20,0,20,0" Spacing="5" VerticalOptions="Center">
+
+            <!-- Mensagens de erro ou sucesso -->
+            <Label x:Name="MensagemLabel"
+                   Text=""
+                   HorizontalOptions="Center"
+                   TextColor="Red"
+                   Style="{StaticResource ExibirTexto}"
+                   IsVisible="False" />
+
+            <!-- Barra de progresso -->
+            <ProgressBar x:Name="EnvioProgressBar"
+                         Progress="0"
+                         HeightRequest="4"
+                         IsVisible="False"
+                         ProgressColor="#007AFF" />
+
             <Label Text="Recuperação de Senha"
                    Style="{StaticResource ExibirTextoTitulo}"/>
 
@@ -33,56 +49,7 @@
                     ContentLayout="20, Right"
                     Style="{StaticResource BotaoEsqueciSenha}"/>
 
-            <!-- Mensagens de erro ou sucesso -->
-            <Label x:Name="MensagemLabel"
-                   Text=""
-                   HorizontalOptions="Center"
-                   TextColor="Red"
-                   Style="{StaticResource ExibirTexto}"
-                   IsVisible="False" />
-
-            <!-- Barra de progresso -->
-            <ProgressBar x:Name="EnvioProgressBar"
-                         Progress="0"
-                         HeightRequest="4"
-                         IsVisible="False"
-                         ProgressColor="#007AFF" />
-
-            <!-- Entrada do código recebido -->
-            <Label Text="Código recebido por e-mail:"
-                   Margin="25,40,20,0"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="CodigoEntry"
-                   Placeholder="Código"
-                   Keyboard="Numeric"
-                   Style="{StaticResource EntraTextoTrocaSenha}"/>
-            </Frame>
-
-            <Label Text="Nova Senha:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="NovaSenhaEntry"
-                       Placeholder="Nova Senha"
-                       IsPassword="True"
-                       Style="{StaticResource EntraTextoTrocaSenha}"/>
-            </Frame>
-
-            <Label Text="Confirme a Nova Senha:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="ConfirmarSenhaEntry"
-                       Placeholder="Confirme a Senha"
-                       IsPassword="True"
-                       Style="{StaticResource EntraTextoTrocaSenha}"/>
-            </Frame>
-
-            <!-- Botão para redefinir senha -->
-            <Button Text="Redefinir Senha"
-                    Clicked="RedefinirSenha_Click"
-                    ImageSource="redefinir_senha.png"
-                    ContentLayout="20, Right"
-                    Style="{StaticResource BotaoEsqueciSenha}"/>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

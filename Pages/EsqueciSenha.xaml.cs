@@ -1,4 +1,7 @@
 using System.Text.RegularExpressions;
+using Firebase.Auth;
+using Firebase.Auth.Providers;
+using AppMobileEscolaDanca.Classes;
 
 
 namespace AppMobileEscolaDanca.Pages;
@@ -10,9 +13,12 @@ public partial class EsqueciSenha : ContentPage
 		InitializeComponent();
     }
 
+
     private async void OnEnviarCodigoClicked(object sender, EventArgs e)
     {
-        string email = EmailEntry.Text?.Trim();
+        string email = EmailEntry.Text;
+        var authService = new AuthFirebase();
+        var user = await authService.EnviarLinkRecuperacaoAsync(email);
 
         // Limpa mensagens anteriores e mostra o loader
         MensagemLabel.IsVisible = false;
@@ -57,10 +63,5 @@ public partial class EsqueciSenha : ContentPage
         return Regex.IsMatch(email,
             @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
             RegexOptions.IgnoreCase);
-    }
-
-    private void RedefinirSenha_Click(object sender, EventArgs e)
-    {
-
     }
 }

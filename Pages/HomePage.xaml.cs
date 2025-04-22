@@ -1,3 +1,5 @@
+using AppMobileEscolaDanca.Classes;
+
 namespace AppMobileEscolaDanca.Pages;
 
 public partial class HomePage : ContentPage
@@ -8,6 +10,15 @@ public partial class HomePage : ContentPage
 	{
 		InitializeComponent();
         LoadDefaultProfileImage();
+        if (Sessao.Cliente != null)
+        {
+            var nome = Sessao.Cliente.Nome;
+            Saudacao.Text = $"Bem vindo de Volta, {nome}";
+        }
+        else
+        {
+            Saudacao.Text = "Bem vindo!";
+        }
     }
 
     //Navegação para outras paginas

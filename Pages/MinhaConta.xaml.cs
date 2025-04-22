@@ -1,3 +1,5 @@
+using AppMobileEscolaDanca.Classes;
+
 namespace AppMobileEscolaDanca.Pages;
 
 public partial class MinhaConta : ContentPage
@@ -5,6 +7,17 @@ public partial class MinhaConta : ContentPage
 	public MinhaConta()
 	{
 		InitializeComponent();
+        var cpf = Sessao.Cliente.CPF;
+        var data = Sessao.Cliente.DataNascimento;
+        var nome = Sessao.Cliente.Nome;
+        var email = Sessao.Cliente.Email;
+        var telefone = Sessao.Cliente.Telefone;
+
+        entryCPF.Text = cpf;
+        entryDataNascimento.Text = data.ToString();
+        entryEmail.Text = email;
+        entryNome.Text = nome;
+        entryTelefone.Text = telefone;
     }
 
     //Salvar alterações no banco
@@ -23,11 +36,5 @@ public partial class MinhaConta : ContentPage
     private async void OnAlterarSenhaClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new Pages.AlterarSenha());
-    }
-
-    // Adicionar dependente
-    private void OnAdicionarDependenteClicked(object sender, EventArgs e)
-    {
-
     }
 }

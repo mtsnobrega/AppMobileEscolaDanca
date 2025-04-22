@@ -16,6 +16,8 @@ public partial class Home : TabbedPage
 		InitializeComponent();
         LoadDefaultProfileImage();
         NavigationPage.SetHasNavigationBar(this, false);
+        Saudacao.Text = "Ola mundo";
+
 
         listaAulas.ItemsSource = new List<Classes.Aula>
             {
@@ -154,6 +156,7 @@ public partial class Home : TabbedPage
                 ImageGame.Source = "thanossmile.jpg";
             }
         }
+        
 
         labelAulas.Text = $"Aulas Completas: {AulasCompletas}/{TotalAulas}";
     }

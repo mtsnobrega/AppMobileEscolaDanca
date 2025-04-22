@@ -31,6 +31,7 @@
                    Style="{StaticResource ExibirTexto}"/>
             <Frame BackgroundColor="White" Margin="20,0,20,0" MaximumWidthRequest="250"  HorizontalOptions="Start" Padding="3">
                 <DatePicker x:Name="NascimentoPicker"
+                            Format="dd/MM/yyyy"
                             FontSize="14"
                             BackgroundColor="White"
                             CharacterSpacing="5"

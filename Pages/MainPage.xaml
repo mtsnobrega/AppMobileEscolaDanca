@@ -43,7 +43,7 @@
                     <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
                         <Frame Grid.ColumnSpan="2" CornerRadius="30" Padding="0" BackgroundColor="White" BorderColor="#3e476c">
                             <Entry Placeholder="Digite seu e-mail"
-                                   x:Name="CampoEmail"
+                                   x:Name="EntradaEmail"
                                    Style="{StaticResource EntraTextoLogin}"/>
                         </Frame>
                         <ImageButton Grid.Column="1" 

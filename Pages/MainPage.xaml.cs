@@ -1,5 +1,9 @@
 ﻿using Microsoft.Maui.ApplicationModel.Communication;
 using System.Text.RegularExpressions;
+using Firebase.Auth;
+using Firebase.Auth.Providers;
+using Firebase.Auth.Repository;
+using AppMobileEscolaDanca.Classes;
 
 namespace AppMobileEscolaDanca.Pages
 {
@@ -8,7 +12,6 @@ namespace AppMobileEscolaDanca.Pages
         public MainPage()
         {
             InitializeComponent();
-
             //Remover a barra de navegação da tela atual
             NavigationPage.SetHasNavigationBar(this, false);
         }
@@ -16,37 +19,49 @@ namespace AppMobileEscolaDanca.Pages
         //Navegação entre paginas
         private async void Btnlogin_Clicked(object sender, EventArgs e)
         {
+            string email = EntradaEmail.Text;
+            string senha = EntradaSenha.Text;
+            var authService = new AuthFirebase();
+            var user = await authService.LoginAsync(email, senha);
+
+
             MensagemLogin.IsVisible = false;
             EnvioProgressBar.IsVisible = true;
             EnvioProgressBar.Progress = 0;
 
-            string email = CampoEmail.Text;
-
-
             await EnvioProgressBar.ProgressTo(0.5, 250, Easing.Linear);
 
+            if (user != null)
+            {
+                string firebaseId = user.Uid;
 
-            if (string.IsNullOrEmpty(email))
+                var UserInfoApi = new ServicoAPI();
+                var usuario = await UserInfoApi.ObterUsuarioPorUid(firebaseId);
+                //await DisplayAlert("Debug", $"UID usado: {firebaseId}", "OK");
+
+                if (usuario != null)
+                {
+                    Sessao.Cliente = usuario;
+                    await DisplayAlert("Sucesso", $"Bem-vindo(a), {user.Info.Email}", "OK");
+                    // Redireciona para Home
+                    // Simula processo final de envio
+                    await EnvioProgressBar.ProgressTo(1, 250, Easing.Linear);
+
+
+                    await Shell.Current.GoToAsync("//home");
+                }
+                else
+                {
+                    await DisplayAlert("Sucesso", $"Errooooooo, {user.Info.Email}", "OK");
+                }
+
+                
+            }
+            else
             {
                 MostrarMensagem("Por favor, preencha o campo de e-mail.", false);
                 return;
             }
-
-            if (email != "adm")
-            {
-                MostrarMensagem("E-mail inválido. Verifique o formato.", false);
-                return;
-            }
-
-            // Simula processo final de envio
-            await EnvioProgressBar.ProgressTo(1, 250, Easing.Linear);
-
-            // lógica real de envio
-            // Sucesso simulado:
-            MostrarMensagem("Código enviado com sucesso! Verifique seu e-mail.", true);
-            
-            await Shell.Current.GoToAsync("//home");
-
         }
 
         private async void BtnEsqSenha_Clicked(object sender, EventArgs e)
