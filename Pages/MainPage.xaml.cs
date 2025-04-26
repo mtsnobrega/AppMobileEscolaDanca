@@ -5,6 +5,7 @@ using Firebase.Auth.Providers;
 using Firebase.Auth.Repository;
 using AppMobileEscolaDanca.Classes;
 
+
 namespace AppMobileEscolaDanca.Pages
 {
     public partial class MainPage : ContentPage
@@ -21,48 +22,163 @@ namespace AppMobileEscolaDanca.Pages
         {
             string email = EntradaEmail.Text;
             string senha = EntradaSenha.Text;
-            var authService = new AuthFirebase();
-            var user = await authService.LoginAsync(email, senha);
 
-
-            MensagemLogin.IsVisible = false;
-            EnvioProgressBar.IsVisible = true;
-            EnvioProgressBar.Progress = 0;
-
-            await EnvioProgressBar.ProgressTo(0.5, 250, Easing.Linear);
-
-            if (user != null)
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha))
             {
-                string firebaseId = user.Uid;
+                MostrarMensagem("Preencha todos os campos.", false);
+                return;
+            }
 
-                var UserInfoApi = new ServicoAPI();
-                var usuario = await UserInfoApi.ObterUsuarioPorUid(firebaseId);
-                //await DisplayAlert("Debug", $"UID usado: {firebaseId}", "OK");
+            try
+            {
+                var authService = new AuthFirebase();
+                var resultado = await authService.LoginAsync(email, senha);
 
-                if (usuario != null)
+                MensagemLogin.IsVisible = false;
+                EnvioProgressBar.IsVisible = true;
+                EnvioProgressBar.Progress = 0;
+                await EnvioProgressBar.ProgressTo(0.5, 250, Easing.Linear);
+
+                if (resultado.Sucesso && resultado.Uid != null)
                 {
-                    Sessao.Cliente = usuario;
-                    await DisplayAlert("Sucesso", $"Bem-vindo(a), {user.Info.Email}", "OK");
-                    // Redireciona para Home
-                    // Simula processo final de envio
-                    await EnvioProgressBar.ProgressTo(1, 250, Easing.Linear);
+                    var firebaseId = resultado.Uid;
+                    var userInfoApi = new ServicoAPI();
+                    var usuario = await userInfoApi.ObterUsuarioPorUid(firebaseId);
 
+                    await DisplayAlert("Debug", $"UID usado: {firebaseId}", "OK");
 
-                    await Shell.Current.GoToAsync("//home");
+                    if (usuario != null)
+                    {
+                        Sessao.Cliente = usuario;
+                        await DisplayAlert("Sucesso", $"Bem-vindo(a), {usuario.Nome}", "OK");
+                        await EnvioProgressBar.ProgressTo(1, 250, Easing.Linear);
+                        await Shell.Current.GoToAsync("//home");
+                    }
+                    else
+                    {
+                        await DisplayAlert("Erro", "Usuário não encontrado na API.", "OK");
+                    }
                 }
                 else
                 {
-                    await DisplayAlert("Sucesso", $"Errooooooo, {user.Info.Email}", "OK");
+                    MostrarMensagem(resultado.MensagemErro ?? "E-mail ou senha inválidos.", false);
                 }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Erro", $"Ocorreu um erro: {ex.Message}", "OK");
+            }
+            /*
+            string email = EntradaEmail.Text;
+            string senha = EntradaSenha.Text;
 
-                
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha))
+            {
+                MostrarMensagem("Preencha todos os campos.", false);
+                return;
             }
             else
             {
-                MostrarMensagem("Por favor, preencha o campo de e-mail.", false);
-                return;
+                try
+                {
+
+
+                    var authService = new AuthFirebase();
+                    var user = await authService.LoginAsync(email, senha);
+
+                    MensagemLogin.IsVisible = false;
+                    EnvioProgressBar.IsVisible = true;
+                    EnvioProgressBar.Progress = 0;
+
+                    await EnvioProgressBar.ProgressTo(0.5, 250, Easing.Linear);
+
+                    if (user != null)
+                    {
+                        string firebaseId = user.Uid;
+
+                        var UserInfoApi = new ServicoAPI();
+                        var usuario = await UserInfoApi.ObterUsuarioPorUid(firebaseId);
+                        await DisplayAlert("Debug", $"UID usado: {firebaseId}", "OK");
+
+                        if (usuario != null)
+                        {
+                            Sessao.Cliente = usuario;
+                            await DisplayAlert("Sucesso", $"Bem-vindo(a), {user.Info.Email}", "OK");
+                            await EnvioProgressBar.ProgressTo(1, 250, Easing.Linear);
+                            await Shell.Current.GoToAsync("//home");
+                        }
+                        else
+                        {
+                            await DisplayAlert("Erro", "Usuário não encontrado na API.", "OK");
+                        }
+                    }
+                    else
+                    {
+                        MostrarMensagem("E-mail ou senha inválidos.", false);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    await DisplayAlert("Erro", $"Ocorreu um erro: {ex.Message}", "OK");
+                }
+            }
+            */
+        }
+        private void MostrarMensagem(string mensagem, bool sucesso)
+        {
+            MensagemLogin.Text = mensagem;
+            MensagemLogin.TextColor = sucesso ? Colors.Green : Colors.Red;
+            MensagemLogin.IsVisible = true;
+            EnvioProgressBar.IsVisible = false;
+        }
+        //await Shell.Current.GoToAsync("//home");
+        //await Shell.Current.GoToAsync("MinhaConta");
+
+        /*
+        string email = EntradaEmail.Text;
+        string senha = EntradaSenha.Text;
+        var authService = new AuthFirebase();
+        var user = await authService.LoginAsync(email, senha);
+
+
+        MensagemLogin.IsVisible = false;
+        EnvioProgressBar.IsVisible = true;
+        EnvioProgressBar.Progress = 0;
+
+        await EnvioProgressBar.ProgressTo(0.5, 250, Easing.Linear);
+
+        if (user != null)
+        {
+            string firebaseId = user.Uid;
+
+            var UserInfoApi = new ServicoAPI();
+            var usuario = await UserInfoApi.ObterUsuarioPorUid(firebaseId);
+            await DisplayAlert("Debug", $"UID usado: {firebaseId}", "OK");
+
+            if (usuario != null)
+            {
+                Sessao.Cliente = usuario;
+                await DisplayAlert("Sucesso", $"Bem-vindo(a), {user.Info.Email}", "OK");
+                // Redireciona para Home
+                // Simula processo final de envio
+                await EnvioProgressBar.ProgressTo(1, 250, Easing.Linear);
+
+
+                await Shell.Current.GoToAsync("//home");
+            }
+            else
+            {
+                await DisplayAlert("Sucesso", $"Errooooooo, {user.Info.Email}", "OK");
             }
         }
+        else
+        {
+            MostrarMensagem("Por favor, preencha o campo de e-mail.", false);
+            return;
+        }
+        */
+
+
 
         private async void BtnEsqSenha_Clicked(object sender, EventArgs e)
         {
@@ -74,13 +190,7 @@ namespace AppMobileEscolaDanca.Pages
         }
 
 
-        private void MostrarMensagem(string mensagem, bool sucesso)
-        {
-            MensagemLogin.Text = mensagem;
-            MensagemLogin.TextColor = sucesso ? Colors.Green : Colors.Red;
-            MensagemLogin.IsVisible = true;
-            EnvioProgressBar.IsVisible = false;
-        }
+        
 
 
 

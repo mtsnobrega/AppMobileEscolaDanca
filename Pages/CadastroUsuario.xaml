@@ -1,101 +1,113 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppMobileEscolaDanca.Pages.CadastroUsuario"
-             xmlns:sys="clr-namespace:System;assembly=mscorlib"
-             Shell.BackgroundColor ="#cdb4db">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+            x:Class="AppMobileEscolaDanca.Pages.CadastroUsuario"  
+            xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:toolkitBehaviors="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+            Shell.BackgroundColor ="#cdb4db">  
 
-    <ContentPage.Background>
-        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
-            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
-            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
-        </LinearGradientBrush>
-    </ContentPage.Background>
+   <ContentPage.Background>  
+       <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">  
+           <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />  
+           <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />  
+       </LinearGradientBrush>  
+   </ContentPage.Background>  
 
-    <ScrollView>
-        <VerticalStackLayout Padding="20,0" Spacing="5">
-            <Label Text="Cadastro de Novo Aluno"
-                   Style="{StaticResource ExibirTextoTitulo}"/>
-            
-            <!-- Nome completo -->
-            <Label Text="Nome completo:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="NomeEntry"
-                   Style="{StaticResource EntraTextoTrocaSenha}"
-                   Placeholder="Digite seu nome completo" />
-            </Frame>
+   <ScrollView>  
+       <VerticalStackLayout Padding="20,0" Spacing="5">  
+           <Label Text="Cadastro de Novo Aluno"  
+                  Style="{StaticResource ExibirTextoTitulo}"/>  
 
-            <!-- Data de nascimento -->
-            <Label Text="Data de nascimento:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame BackgroundColor="White" Margin="20,0,20,0" MaximumWidthRequest="250"  HorizontalOptions="Start" Padding="3">
-                <DatePicker x:Name="NascimentoPicker"
-                            Format="dd/MM/yyyy"
-                            FontSize="14"
-                            BackgroundColor="White"
-                            CharacterSpacing="5"
-                            TextColor="Black"
-                            MaximumDate="{x:Static sys:DateTime.Now}" />
-            </Frame>
-            
-            <!-- E-mail -->
-            <Label Text="E-mail:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="EmailEntry"
-                   Style="{StaticResource EntraTextoTrocaSenha}"
-                   Placeholder="exemplo@email.com"
-                   Keyboard="Email" />
-            </Frame>
+           <!-- Nome completo -->  
+           <Label Text="Nome completo:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">  
+               <Entry x:Name="NomeEntry"  
+                  Style="{StaticResource EntraTextoTrocaSenha}"  
+                  Placeholder="Digite seu nome completo" />  
+           </Frame>  
 
-            <!-- CPF -->
-            <Label Text="CPF:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="CpfEntry"
-                   Style="{StaticResource EntraTextoTrocaSenha}"
-                   Placeholder="Digite seu CPF"
-                   Keyboard="Numeric" />
-            </Frame>
+           <!-- Data de nascimento -->  
+           <Label Text="Data de nascimento:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame BackgroundColor="White" Margin="20,0,20,0" MaximumWidthRequest="250"  HorizontalOptions="Start" Padding="3">  
+               <DatePicker x:Name="NascimentoPicker"  
+                           Format="dd/MM/yyyy"  
+                           FontSize="14"  
+                           BackgroundColor="White"  
+                           CharacterSpacing="5"  
+                           TextColor="Black"  
+                           MaximumDate="{x:Static sys:DateTime.Now}" />  
+           </Frame>  
 
-            <!-- Telefone -->
-            <Label Text="Telefone:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="TelefoneEntry"
-                   Style="{StaticResource EntraTextoTrocaSenha}"
-                   Placeholder="(00) 00000-0000"
-                   Keyboard="Telephone" />
-            </Frame>
+           <!-- E-mail -->  
+           <Label Text="E-mail:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">  
+               <Entry x:Name="EmailEntry"  
+                  Style="{StaticResource EntraTextoTrocaSenha}"  
+                  Placeholder="exemplo@email.com"  
+                  Keyboard="Email" />  
+           </Frame>  
 
-            <!-- Senha -->
-            <Label Text="Senha:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="SenhaEntry"
-                   Style="{StaticResource EntraTextoTrocaSenha}"
-                   Placeholder="Crie uma senha"
-                   IsPassword="True" />
-            </Frame>
+           <!-- CPF -->  
+           <Label Text="CPF:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">  
+               <Entry x:Name="CpfEntry"  
+                      Style="{StaticResource EntraTextoTrocaSenha}"  
+                      Placeholder="Digite seu CPF"  
+                      Keyboard="Numeric"
+                      MaxLength="14">
+                    <Entry.Behaviors>
+                        <toolkitBehaviors:MaskedBehavior Mask="XXX.XXX.XXX.XX" />
+                    </Entry.Behaviors>
+                </Entry>  
+           </Frame>  
 
-            <!-- Confirmar senha -->
-            <Label Text="Confirmar Senha:"
-                   Style="{StaticResource ExibirTexto}"/>
-            <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
-                <Entry x:Name="ConfirmarSenhaEntry"
-                   Style="{StaticResource EntraTextoTrocaSenha}"
-                   Placeholder="Repita a senha"
-                   IsPassword="True" />
-            </Frame>
+           <!-- Telefone -->  
+           <Label Text="Telefone:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Entry x:Name="TelefoneEntry"  
+                       Style="{StaticResource EntraTextoTrocaSenha}"  
+                       Placeholder="(00) 00000-0000"  
+                       Keyboard="Telephone"
+                       MaxLength="15">
+                    <Entry.Behaviors>
+                        <toolkitBehaviors:MaskedBehavior Mask="(XX) XXXXX-XXXX" />
+                    </Entry.Behaviors>
+                </Entry>
+            </Frame>  
 
-            <!-- Botão de cadastro -->
-            <Button Text="Cadastrar"
-                    Style="{StaticResource BotaoEsqueciSenha}" 
-                    CornerRadius="10"
-                    ImageSource="cadastrar_new.png"
-                    ContentLayout="20, Right"
-                    Clicked="OnCadastrarClicked" />
-        </VerticalStackLayout>
-    </ScrollView>
+           <!-- Senha -->  
+           <Label Text="Senha:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">  
+               <Entry x:Name="SenhaEntry"  
+                  Style="{StaticResource EntraTextoTrocaSenha}"  
+                  Placeholder="Crie uma senha"  
+                  IsPassword="True" />  
+           </Frame>  
+
+           <!-- Confirmar senha -->  
+           <Label Text="Confirmar Senha:"  
+                  Style="{StaticResource ExibirTexto}"/>  
+           <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">  
+               <Entry x:Name="ConfirmarSenhaEntry"  
+                  Style="{StaticResource EntraTextoTrocaSenha}"  
+                  Placeholder="Repita a senha"  
+                  IsPassword="True" />  
+           </Frame>  
+
+           <!-- Botão de cadastro -->  
+           <Button Text="Cadastrar"  
+                   Style="{StaticResource BotaoEsqueciSenha}"   
+                   CornerRadius="10"  
+                   ImageSource="cadastrar_new.png"  
+                   ContentLayout="20, Right"  
+                   Clicked="OnCadastrarClicked" />  
+       </VerticalStackLayout>  
+   </ScrollView>  
 </ContentPage>

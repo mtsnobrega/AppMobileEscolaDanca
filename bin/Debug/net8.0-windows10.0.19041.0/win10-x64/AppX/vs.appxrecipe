@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-22T02:33:09.808</Modified>
+      <Modified>2025-04-26T02:32:32.831</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-22T02:06:09.435</Modified>
+      <Modified>2025-04-26T02:19:02.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.runtimeconfig.json">
       <PackagePath>AppMobileEscolaDanca.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-22T02:06:09.039</Modified>
+      <Modified>2025-04-22T18:33:46.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.dll">
       <PackagePath>AppMobileEscolaDanca.dll</PackagePath>
-      <Modified>2025-04-22T02:33:08.325</Modified>
+      <Modified>2025-04-26T02:32:32.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppMobileEscolaDanca.exe</PackagePath>
-      <Modified>2025-04-22T02:33:08.388</Modified>
+      <Modified>2025-04-26T02:32:32.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:05.774</Modified>
+      <Modified>2025-04-22T18:32:31.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:05.782</Modified>
+      <Modified>2025-04-22T18:32:31.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:05.812</Modified>
+      <Modified>2025-04-22T18:32:31.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:05.830</Modified>
+      <Modified>2025-04-22T18:32:31.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:05.973</Modified>
+      <Modified>2025-04-22T18:32:31.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-VariableFont_wght.ttf">
       <PackagePath>Montserrat-VariableFont_wght.ttf</PackagePath>
@@ -88,291 +88,271 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\alterar_senha.scale-100.png">
       <PackagePath>alterar_senha.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cadastrar_new.scale-100.png">
       <PackagePath>cadastrar_new.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cad_lock.scale-100.png">
+      <PackagePath>cad_lock.scale-100.png</PackagePath>
+      <Modified>2025-04-26T01:57:15.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cad_open.scale-100.png">
+      <PackagePath>cad_open.scale-100.png</PackagePath>
+      <Modified>2025-04-26T01:57:15.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\danca.scale-100.png">
       <PackagePath>danca.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\enviar_email.scale-100.png">
       <PackagePath>enviar_email.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_ico.scale-100.png">
-      <PackagePath>google_ico.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_ico.scale-100.png">
       <PackagePath>home_ico.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\julius.scale-100.jpeg">
       <PackagePath>julius.scale-100.jpeg</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\latrel.scale-100.jpg">
       <PackagePath>latrel.scale-100.jpg</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_escola.scale-100.png">
+      <PackagePath>logo_escola.scale-100.png</PackagePath>
+      <Modified>2025-04-26T01:57:15.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nao_pode_olhar.scale-100.png">
       <PackagePath>nao_pode_olhar.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\novos_pacotes.scale-100.png">
       <PackagePath>novos_pacotes.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic.scale-100.png">
       <PackagePath>pic.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pode_olhar.scale-100.png">
       <PackagePath>pode_olhar.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\positive.scale-100.png">
       <PackagePath>positive.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\recibo.scale-100.png">
-      <PackagePath>recibo.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.742</Modified>
+      <Modified>2025-04-26T01:57:15.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redefinir_senha.scale-100.png">
       <PackagePath>redefinir_senha.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\salvar.scale-100.png">
       <PackagePath>salvar.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\seta_detalhes.scale-100.png">
       <PackagePath>seta_detalhes.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\thanossmile.scale-100.jpg">
       <PackagePath>thanossmile.scale-100.jpg</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
       <PackagePath>user.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_profile.scale-100.png">
-      <PackagePath>user_profile.scale-100.png</PackagePath>
-      <Modified>2025-04-22T02:06:06.758</Modified>
+      <Modified>2025-04-26T01:57:15.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.deps.json">
       <PackagePath>AppMobileEscolaDanca.deps.json</PackagePath>
-      <Modified>2025-04-22T02:06:08.854</Modified>
+      <Modified>2025-04-26T02:19:02.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -381,6 +361,14 @@
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\communitytoolkit.maui\8.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2024-04-04T14:54:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\communitytoolkit.maui.core\8.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2024-04-04T14:54:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\firebaseadmin\3.1.0\lib\net6.0\FirebaseAdmin.dll">
       <PackagePath>FirebaseAdmin.dll</PackagePath>
@@ -565,6 +553,10 @@
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\system.reactive\6.0.0\lib\net6.0-windows10.0.19041\System.Reactive.dll">
       <PackagePath>System.Reactive.dll</PackagePath>
       <Modified>2023-05-19T05:42:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2023-10-31T15:00:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

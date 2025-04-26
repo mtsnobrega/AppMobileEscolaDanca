@@ -7,6 +7,7 @@ public partial class MinhaConta : ContentPage
 	public MinhaConta()
 	{
 		InitializeComponent();
+        
         var cpf = Sessao.Cliente.CPF;
         var data = Sessao.Cliente.DataNascimento;
         var nome = Sessao.Cliente.Nome;

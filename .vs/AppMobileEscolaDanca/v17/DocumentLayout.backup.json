@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\minhaconta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\minhaconta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\classes\\aulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:classes\\aulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\classes\\servicoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:classes\\servicoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\classes\\authfirebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:classes\\authfirebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\classes\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:classes\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\classes\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:classes\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 264,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,41 +46,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\HomePage.xaml.cs",
-              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:58:27.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MinhaConta.xaml.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MinhaConta.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MinhaConta.xaml.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MinhaConta.xaml.cs",
-              "RelativeToolTip": "Pages\\MinhaConta.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\MainPage.xaml.cs*",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:58:19.647Z",
+              "WhenOpened": "2025-04-26T02:24:46.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Sessao.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Sessao.cs",
-              "RelativeDocumentMoniker": "Classes\\Sessao.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Sessao.cs",
-              "RelativeToolTip": "Classes\\Sessao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Aulas.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Aulas.cs",
+              "RelativeDocumentMoniker": "Classes\\Aulas.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Aulas.cs",
+              "RelativeToolTip": "Classes\\Aulas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:58:37.36Z",
+              "WhenOpened": "2025-04-26T02:15:34.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthFirebase.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\AuthFirebase.cs",
+              "RelativeDocumentMoniker": "Classes\\AuthFirebase.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\AuthFirebase.cs*",
+              "RelativeToolTip": "Classes\\AuthFirebase.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:08:12.074Z",
               "EditorCaption": ""
             },
             {
@@ -93,24 +89,11 @@
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Usuario.cs",
               "RelativeDocumentMoniker": "Classes\\Usuario.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Usuario.cs",
-              "RelativeToolTip": "Classes\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\Usuario.cs*",
+              "RelativeToolTip": "Classes\\Usuario.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:56:12.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicoAPI.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\ServicoAPI.cs",
-              "RelativeDocumentMoniker": "Classes\\ServicoAPI.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Classes\\ServicoAPI.cs",
-              "RelativeToolTip": "Classes\\ServicoAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:44:40.549Z",
+              "WhenOpened": "2025-04-26T01:54:13.1Z",
               "EditorCaption": ""
             }
           ]

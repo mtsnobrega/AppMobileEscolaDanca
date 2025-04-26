@@ -30,19 +30,60 @@ namespace AppMobileEscolaDanca.Classes
             authClient = new FirebaseAuthClient(config);
         }
 
-        //Autenticação de Login
-        public async Task<User?> LoginAsync(string email, string senha)
+        // Cadastro de novo usuário
+        public async Task<(bool Sucesso, string? MensagemErro, string? Uid, string? IdToken)> RegistrarUsuarioAsync(string email, string senha)
         {
             try
             {
-                var userCredential = await authClient.SignInWithEmailAndPasswordAsync(email, senha);
-                return userCredential.User;
+                var userCredential = await authClient.CreateUserWithEmailAndPasswordAsync(email, senha);
+                var user = userCredential.User;
+
+                var idToken = await user.GetIdTokenAsync();
+
+                return (true, null, user.Uid, idToken);
             }
             catch (FirebaseAuthException ex)
             {
-                Console.WriteLine($"Erro: {ex.Reason}, {ex.Message}");
-                return null;
+                return (false, ex.Message, null, null);
             }
+            catch (Exception ex)
+            {
+                return (false, ex.Message, null, null);
+            }
+        }
+
+        public class ResultadoLogin
+        {
+            public bool Sucesso { get; set; }
+            public string? Uid { get; set; }
+            public string? IdToken { get; set; }
+            public string? MensagemErro { get; set; }
+        }
+
+
+
+        //Autenticação de Login
+        public async Task<ResultadoLogin> LoginAsync(string email, string senha)
+        {
+            var resultado = new ResultadoLogin();
+
+            try
+            {
+                var userCredential = await authClient.SignInWithEmailAndPasswordAsync(email, senha);
+                var user = userCredential.User;
+                var idToken = await user.GetIdTokenAsync();
+
+                resultado.Sucesso = true;
+                resultado.Uid = user.Uid;
+                resultado.IdToken = idToken;
+            }
+            catch (FirebaseAuthException ex)
+            {
+                resultado.Sucesso = false;
+                resultado.MensagemErro = $"Erro: {ex.Reason}, {ex.Message}";
+            }
+
+            return resultado;
         }
 
         //Recuperação de senha 

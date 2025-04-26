@@ -208,29 +208,17 @@
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cadastrar_new.scale-100.png">
       <PackagePath>cadastrar_new.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cad_lock.scale-100.png">
+      <PackagePath>cad_lock.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cad_open.scale-100.png">
+      <PackagePath>cad_open.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\danca.scale-100.png">
       <PackagePath>danca.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\enviar_email.scale-100.png">
       <PackagePath>enviar_email.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_ico.scale-100.png">
-      <PackagePath>google_ico.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_ico.scale-100.png">
       <PackagePath>home_ico.scale-100.png</PackagePath>
@@ -240,6 +228,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\latrel.scale-100.jpg">
       <PackagePath>latrel.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_escola.scale-100.png">
+      <PackagePath>logo_escola.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nao_pode_olhar.scale-100.png">
       <PackagePath>nao_pode_olhar.scale-100.png</PackagePath>
@@ -256,9 +247,6 @@
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\positive.scale-100.png">
       <PackagePath>positive.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\recibo.scale-100.png">
-      <PackagePath>recibo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redefinir_senha.scale-100.png">
       <PackagePath>redefinir_senha.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -274,9 +262,6 @@
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
       <PackagePath>user.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_profile.scale-100.png">
-      <PackagePath>user_profile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMobileEscolaDanca.deps.json">
       <PackagePath>AppMobileEscolaDanca.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -285,6 +270,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\communitytoolkit.maui\8.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\communitytoolkit.maui.core\8.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\firebaseadmin\3.1.0\lib\net6.0\FirebaseAdmin.dll">
       <PackagePath>FirebaseAdmin.dll</PackagePath>
@@ -423,6 +414,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\system.reactive\6.0.0\lib\net6.0-windows10.0.19041\System.Reactive.dll">
       <PackagePath>System.Reactive.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mathe\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

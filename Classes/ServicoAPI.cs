@@ -18,7 +18,7 @@ namespace AppMobileEscolaDanca.Classes
         {
             _httpClient = new HttpClient
             {
-                BaseAddress = new Uri("http://localhost:7266/")
+                BaseAddress = new Uri("apiescoladanca20250425115612-g9h8dxercscuhzdj.canadacentral-01.azurewebsites.net")
             };
         }
 
@@ -58,7 +58,7 @@ namespace AppMobileEscolaDanca.Classes
                 }
                 else
                 {
-                    // 🔍 Loga a resposta da API
+                    // Log  da resposta da API
                     var respostaErro = await response.Content.ReadAsStringAsync();
                     Debug.WriteLine($"Erro API: {respostaErro}");
                     await Application.Current.MainPage.DisplayAlert("Erro na API", respostaErro, "OK");
@@ -67,7 +67,7 @@ namespace AppMobileEscolaDanca.Classes
             }
             catch (Exception ex)
             {
-                // 🛑 Captura erros de rede ou formatação
+                //Captura erros de rede ou formatação
                 Debug.WriteLine($"Erro Exception: {ex.Message}");
                 await Application.Current.MainPage.DisplayAlert("Exceção", ex.Message, "OK");
                 return false;

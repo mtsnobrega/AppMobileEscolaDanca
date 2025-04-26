@@ -26,5 +26,29 @@ namespace AppMobileEscolaDanca.Classes
 
         [JsonPropertyName("dataNascimento")]
         public DateTime DataNascimento { get; set; }
+
+
+        public string ValidarCampos(string senha, string confirmarSenha)
+        {
+            var mensagemErro = new StringBuilder();
+
+            if (string.IsNullOrEmpty(Nome)) mensagemErro.AppendLine("O campo 'Nome' está vazio ou nulo.");
+            if (string.IsNullOrEmpty(CPF)) mensagemErro.AppendLine("O campo 'CPF' está vazio ou nulo.");
+            if (string.IsNullOrEmpty(Email)) mensagemErro.AppendLine("O campo 'Email' está vazio ou nulo.");
+            if (string.IsNullOrEmpty(Telefone)) mensagemErro.AppendLine("O campo 'Telefone' está vazio ou nulo.");
+            if (string.IsNullOrEmpty(senha)) mensagemErro.AppendLine("O campo 'Senha' está vazio ou nulo.");
+            if (string.IsNullOrEmpty(confirmarSenha)) mensagemErro.AppendLine("O campo 'Confirmar' está vazio ou nulo.");
+
+            if (senha != confirmarSenha)
+                mensagemErro.AppendLine("As senhas não coincidem.");
+
+            return mensagemErro.ToString();
+        }
+
+
+
+
     }
+
+
 }
