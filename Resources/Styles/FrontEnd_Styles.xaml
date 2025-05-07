@@ -6,7 +6,7 @@
 
     <!-- style para label exibindo texto para titulo-->
     <Style x:Key="ExibirTextoTitulo" TargetType="Label">
-        <Setter Property="Margin" Value="20,0,20,30"/>
+        <Setter Property="Margin" Value="20,10,20,20"/>
         <Setter Property="FontAttributes" Value="Bold"/>
         <Setter Property="FontFamily" Value="Montserrat"/>
         <Setter Property="TextColor" Value="#0e172c"/>
@@ -77,5 +77,17 @@
         <Setter Property="Margin" Value="0,0,0,0"/>
         <Setter Property="TextColor" Value="#0e172c"/>
     </Style>
+
+    <!-- style para frame exibir info do usuario -->
+    <Style x:Key="framestyle" TargetType="Frame">
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Margin" Value="20,0,20,0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="BackgroundColor" Value="#E0E0E0"/>
+        <Setter Property="BorderColor" Value="#3e476c"/>
+    </Style>
+
+
 </ResourceDictionary>
 

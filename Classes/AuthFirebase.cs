@@ -80,7 +80,8 @@ namespace AppMobileEscolaDanca.Classes
             catch (FirebaseAuthException ex)
             {
                 resultado.Sucesso = false;
-                resultado.MensagemErro = $"Erro: {ex.Reason}, {ex.Message}";
+                //resultado.MensagemErro = $"Erro: {ex.Reason}, {ex.Message}";
+                resultado.MensagemErro = $"Erro: Email não Cadastrado";
             }
 
             return resultado;

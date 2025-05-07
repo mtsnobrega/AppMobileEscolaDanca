@@ -56,6 +56,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Pages\Home.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Pages\Home.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="8.0.1" />
 		<PackageReference Include="FirebaseAdmin" Version="3.1.0" />
 		<PackageReference Include="FirebaseAuthentication.net" Version="4.1.0" />
@@ -75,10 +83,10 @@
 	  <MauiXaml Update="Pages\DetalhesPacote.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\EsqueciSenha.xaml">
+	  <MauiXaml Update="Pages\DetalhesProduto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Home.xaml">
+	  <MauiXaml Update="Pages\EsqueciSenha.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\HomePage.xaml">

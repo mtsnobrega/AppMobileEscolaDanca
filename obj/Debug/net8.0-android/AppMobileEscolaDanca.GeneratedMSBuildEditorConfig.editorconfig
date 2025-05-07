@@ -48,17 +48,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages
 build_metadata.AdditionalFiles.TargetPath = Pages\DetalhesPacote.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\DetalhesPacote.xaml
 
+[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/DetalhesProduto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.DetalhesProduto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DetalhesProduto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DetalhesProduto.xaml
+
 [C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/EsqueciSenha.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.EsqueciSenha.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\EsqueciSenha.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\EsqueciSenha.xaml
-
-[C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/Home.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppMobileEscolaDanca.Pages.Home.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
 
 [C:/ProjetoMobileC\#/AppMobileEscolaDanca/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

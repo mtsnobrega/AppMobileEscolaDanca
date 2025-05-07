@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using System.Reflection;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -18,7 +19,9 @@ namespace AppMobileEscolaDanca.Classes
         {
             _httpClient = new HttpClient
             {
-                BaseAddress = new Uri("apiescoladanca20250425115612-g9h8dxercscuhzdj.canadacentral-01.azurewebsites.net")
+
+                BaseAddress = new Uri("https://apiescoladanca20250430175356-c0afdfgpd8e9bybz.canadacentral-01.azurewebsites.net/")
+                //BaseAddress = new Uri("http://localhost:7266/")
             };
         }
 

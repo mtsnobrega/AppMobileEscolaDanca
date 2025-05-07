@@ -27,6 +27,9 @@ namespace AppMobileEscolaDanca.Classes
         [JsonPropertyName("dataNascimento")]
         public DateTime DataNascimento { get; set; }
 
+        [JsonPropertyName("tipousuario")]
+        public string TipoUsuario { get; set; }
+
 
         public string ValidarCampos(string senha, string confirmarSenha)
         {

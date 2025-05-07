@@ -16,6 +16,7 @@
             Routing.RegisterRoute("HomePage", typeof(Pages.HomePage));
             
             Routing.RegisterRoute("Pacotes", typeof(Pages.Pacotes));
+            Routing.RegisterRoute("DetalhesProduto", typeof(Pages.DetalhesProduto));
 
             Routing.RegisterRoute("MinhasFinancas", typeof(Pages.MinhasFinancas));
             Routing.RegisterRoute("DetalhesPacote", typeof(Pages.DetalhesPacote));

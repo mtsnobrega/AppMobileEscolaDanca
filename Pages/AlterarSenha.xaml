@@ -33,13 +33,13 @@
                          ProgressColor="#007AFF" />
 
             <VerticalStackLayout Spacing="15">
-                <Frame CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="40,0,40,0">
-                    <Entry x:Name="entryEmail" Placeholder="E-mail" IsReadOnly="True"  Style="{StaticResource ExibirTextoInfoConta}"/>
+                <Frame Style="{StaticResource framestyle}" BackgroundColor="White">
+                    <Entry x:Name="entryEmail" Placeholder="E-mail" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </Frame>
 
                 <!-- Botão -->
                 <Button Text="Enviar Email"
-                        Margin="40,20,40,20"
+                        Margin="20,20,20,20"
                         ImageSource="enviar_email.png"
                         ContentLayout="40,Right"
                         FontSize="18"

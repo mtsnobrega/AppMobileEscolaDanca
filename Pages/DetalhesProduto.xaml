@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobileEscolaDanca.Pages.DetalhesProduto"
+             Shell.TabBarIsVisible="False"
+             Shell.BackgroundColor ="#cdb4db">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="{StaticResource Rosa}" Offset="0.0" />
+            <GradientStop Color="{StaticResource Roxo}" Offset="0.6" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <Label Text="Comprar Pacote de Aulas"
+                   Style="{StaticResource ExibirTextoTitulo}"/>
+
+            <Label Text="{Binding Titulo}"
+                   FontSize="26"
+                   Style="{StaticResource ExibirTextoTitulo}"/>
+
+            <Label Text="{Binding ValorMensal, StringFormat='Valor da Mensalidade: R${0:F2}'}"  
+                   Style="{StaticResource ExibirTextoTitulo}"
+                   FontSize="20"
+                   Margin="0,0,0,0"/>
+
+            <Frame BackgroundColor="#ffffff" Padding="15" CornerRadius="10" HasShadow="True" Margin="40,0,40,0">
+                <StackLayout Spacing="10">
+                    <Label Text="Resumo do Pacote" FontSize="20" TextColor="#4a4a4a"  HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    <Label Text="{Binding Descricao}" FontSize="16" TextColor="#4a4a4a" />
+                    <Label Text="{Binding TipoPlano, StringFormat='Tipo de Plano: {0}'}" FontSize="16" TextColor="#4a4a4a" />
+                    <Label Text="{Binding DiaDaSemana, StringFormat='Dia das Aulas: {0}'}" FontSize="16" TextColor="#333" />
+                    <Label Text="{Binding Horario, StringFormat='Horário das Aulas: {0}'}" FontSize="16" TextColor="#333" />
+                    <Label Text="{Binding QtdAulas,StringFormat='Quantidade de Aulas: {0}'}" FontSize="16" TextColor="#4a4a4a" />
+                    <Label Text="{Binding Professor, StringFormat='Nome do Professor: {0}'}" FontSize="16" TextColor="#333" />
+                    <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}" FontSize="16" TextColor="#333" />
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Comprar Pacote"
+                Style="{StaticResource PadraoBotao}"
+                Clicked="OnRenovarClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

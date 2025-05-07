@@ -20,6 +20,13 @@ namespace AppMobileEscolaDanca.Pages
         //Navegação entre paginas
         private async void Btnlogin_Clicked(object sender, EventArgs e)
         {
+
+            await Shell.Current.GoToAsync("//home");
+
+            /*
+             * original  
+             * 
+             * 
             string email = EntradaEmail.Text;
             string senha = EntradaSenha.Text;
 
@@ -68,6 +75,18 @@ namespace AppMobileEscolaDanca.Pages
             {
                 await DisplayAlert("Erro", $"Ocorreu um erro: {ex.Message}", "OK");
             }
+
+            */
+
+
+
+
+
+
+
+
+
+
             /*
             string email = EntradaEmail.Text;
             string senha = EntradaSenha.Text;

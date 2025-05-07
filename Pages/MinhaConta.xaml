@@ -13,8 +13,8 @@
             
             <!-- Nome  -->
             <Label Text="Nome:" Style="{StaticResource ExibirTexto}"/>
-            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
-                <Frame Grid.ColumnSpan="2" CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,0">
+                <Frame Style="{StaticResource framestyle}">
                     <Entry x:Name="entryNome" Placeholder="Nome Completo" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </Frame>
                 <ImageButton Grid.Column="1" Margin="0,0,20,0" HeightRequest="40" WidthRequest="40"
@@ -23,9 +23,9 @@
             </Grid>
 
             <!-- Email -->
-            <Label Text="Nome:" Style="{StaticResource ExibirTexto}"/>
-            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
-                <Frame Grid.ColumnSpan="2" CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+            <Label Text="Email:" Style="{StaticResource ExibirTexto}"/>
+            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,0">
+                <Frame Style="{StaticResource framestyle}">
                     <Entry x:Name="entryEmail" Placeholder="E-mail" IsReadOnly="True"  Style="{StaticResource ExibirTextoInfoConta}"/>
                 </Frame>
                 <ImageButton Grid.Column="1" Margin="0,0,20,0" HeightRequest="40" WidthRequest="40" Source="cad_lock.png" BackgroundColor="Transparent"/>
@@ -33,18 +33,17 @@
 
             <!-- CPF -->
             <Label Text="CPF:" Style="{StaticResource ExibirTexto}"/>
-            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
-                <Frame Grid.ColumnSpan="2" CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,0">
+                <Frame Style="{StaticResource framestyle}">
                     <Entry x:Name="entryCPF" Placeholder="CPF" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </Frame>
                 <ImageButton Grid.Column="1" Margin="0,0,20,0" HeightRequest="40" WidthRequest="40" Source="cad_lock.png" BackgroundColor="Transparent"/>
             </Grid>
 
-
             <!-- Data Nascimento  -->
             <Label Text="Data de Nascimento:" Style="{StaticResource ExibirTexto}"/>
-            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
-                <Frame Grid.ColumnSpan="2" CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,20">
+                <Frame Style="{StaticResource framestyle}">
                     <Entry x:Name="entryDataNascimento" Placeholder="Data de Nascimento" IsReadOnly="True" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </Frame>
                 <ImageButton Grid.Column="1" Margin="0,0,20,0" HeightRequest="40" WidthRequest="40" Source="cad_lock.png" BackgroundColor="Transparent"/>
@@ -55,7 +54,7 @@
             <!-- Telefone -->
             <Label Text="Numero de Contato:" Style="{StaticResource ExibirTexto}"/>
             <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,15">
-                <Frame Grid.ColumnSpan="2" CornerRadius="10" Padding="0" BackgroundColor="White" BorderColor="#3e476c" Margin="20,0,20,0">
+                <Frame Style="{StaticResource framestyle}" BackgroundColor="White">
                     <Entry x:Name="entryTelefone" Placeholder="Telefone" Style="{StaticResource ExibirTextoInfoConta}"/>
                 </Frame>
                 <ImageButton Grid.Column="1" Margin="0,0,20,0" HeightRequest="40" WidthRequest="40" Source="cad_open.png" BackgroundColor="Transparent"/>
