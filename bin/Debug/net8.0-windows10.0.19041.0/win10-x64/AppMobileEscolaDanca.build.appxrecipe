@@ -223,6 +223,18 @@
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\enviar_email.scale-100.png">
       <PackagePath>enviar_email.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game1.scale-100.png">
+      <PackagePath>game1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game2.scale-100.png">
+      <PackagePath>game2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game3.scale-100.png">
+      <PackagePath>game3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game4.scale-100.png">
+      <PackagePath>game4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hihop.scale-100.png">
       <PackagePath>hihop.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -246,6 +258,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\novos_pacotes.scale-100.png">
       <PackagePath>novos_pacotes.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfil1.scale-100.png">
+      <PackagePath>perfil1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfil2.scale-100.png">
+      <PackagePath>perfil2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfil3.scale-100.png">
+      <PackagePath>perfil3.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic.scale-100.png">
       <PackagePath>pic.scale-100.png</PackagePath>

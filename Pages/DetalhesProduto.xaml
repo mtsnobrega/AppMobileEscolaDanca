@@ -28,14 +28,14 @@
 
             <Frame BackgroundColor="#ffffff" Padding="15" CornerRadius="10" HasShadow="True" Margin="40,0,40,0">
                 <StackLayout Spacing="10">
-                    <Label Text="Resumo do Pacote" FontSize="20" TextColor="#4a4a4a"  HorizontalOptions="Center" Margin="0,0,0,10"/>
-                    <Label Text="{Binding Descricao}" FontSize="16" TextColor="#4a4a4a" />
-                    <Label Text="{Binding TipoPlano, StringFormat='Tipo de Plano: {0}'}" FontSize="16" TextColor="#4a4a4a" />
-                    <Label Text="{Binding DiaDaSemana, StringFormat='Dia das Aulas: {0}'}" FontSize="16" TextColor="#333" />
-                    <Label Text="{Binding Horario, StringFormat='Horário das Aulas: {0}'}" FontSize="16" TextColor="#333" />
-                    <Label Text="{Binding QtdAulas,StringFormat='Quantidade de Aulas: {0}'}" FontSize="16" TextColor="#4a4a4a" />
-                    <Label Text="{Binding Professor, StringFormat='Nome do Professor: {0}'}" FontSize="16" TextColor="#333" />
-                    <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}" FontSize="16" TextColor="#333" />
+                    <Label Text="Resumo do Pacote" FontSize="20" TextColor="#0e172c"   HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    <Label Text="{Binding Descricao}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding TipoPlano, StringFormat='Tipo de Plano: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding DiaDaSemana, StringFormat='Dia das Aulas: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding Horario, StringFormat='Horário das Aulas: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding QtdAulas,StringFormat='Quantidade de Aulas: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding Professor, StringFormat='Nome do Professor: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}" FontSize="16" TextColor="#0e172c" />
                 </StackLayout>
             </Frame>
 

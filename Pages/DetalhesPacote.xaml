@@ -13,26 +13,33 @@
     </ContentPage.Background>
 
     <ScrollView>
-        <StackLayout Padding="20" Spacing="20">
 
-            <Label Text="Informações Detalhadas"
+        <StackLayout Padding="20" Spacing="20">
+            
+            <Label Text="{Binding Titulo}"
+                   FontSize="26"
                    Style="{StaticResource ExibirTextoTitulo}"/>
 
-            <Label Text="{Binding Nome}"
-                   Style="{StaticResource ExibirTextoTitulo}"
-                   FontSize="26" 
-                   FontAttributes="Bold"
-                   TextColor="#0e172c" />
+            <Label Text="{Binding Descricao}" FontSize="16" TextColor="#0e172c" HorizontalOptions="Center" />
 
-            <Label Text="{Binding Descricao}" 
-                   FontSize="16" 
-                   TextColor="#4a4a4a" />
-
-            <Frame BackgroundColor="#ffffff" Padding="15" CornerRadius="10" HasShadow="True">
+            <Frame BackgroundColor="#ffffff" Padding="15" CornerRadius="10" HasShadow="True" Margin="40,0,40,0">
                 <StackLayout Spacing="10">
-                    <Label Text="{Binding Duracao, StringFormat='Duração: {0}'}" FontSize="14" TextColor="#333" />
-                    <Label Text="{Binding DataVencimento, StringFormat='Vencimento: {0:dd/MM/yyyy}'}" FontSize="14" TextColor="#333" />
-                    <Label Text="{Binding Valor, StringFormat='Valor: R${0:F2}'}" FontSize="14" TextColor="#333" />
+                    <Label Text="Renovação do Pacote" FontSize="20" TextColor="#0e172c"  HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    <Label Text="{Binding DataVencimento, StringFormat='Data de Vencimento: {0}'}" FontSize="16" TextColor="#0e172c"/>
+                    <Label Text="{Binding DataCompra, StringFormat='Data da Compra: {0}'}" FontSize="16" TextColor="#0e172c"/>
+                    <Label Text="{Binding Valor, StringFormat='Valor Total: {0}'}" FontSize="16" TextColor="#0e172c"/>
+                </StackLayout>
+            </Frame>
+            
+            <Frame BackgroundColor="#ffffff" Padding="15" CornerRadius="10" HasShadow="True" Margin="40,0,40,0">
+                <StackLayout Spacing="10">
+                    <Label Text="Resumo do Pacote" FontSize="20" TextColor="#0e172c" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    <Label Text="{Binding TipoPlano, StringFormat='Tipo de Plano: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding DiaDaSemana, StringFormat='Dia das Aulas: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding Horario, StringFormat='Horário das Aulas: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding QtdAulas,StringFormat='Quantidade de Aulas: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding Professor, StringFormat='Nome do Professor: {0}'}" FontSize="16" TextColor="#0e172c" />
+                    <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}" FontSize="16" TextColor="#0e172c" />
                 </StackLayout>
             </Frame>
 

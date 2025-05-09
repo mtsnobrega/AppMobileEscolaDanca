@@ -56,6 +56,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Classes\Pacote.cs" />
 	  <Compile Remove="Pages\Home.xaml.cs" />
 	</ItemGroup>
 

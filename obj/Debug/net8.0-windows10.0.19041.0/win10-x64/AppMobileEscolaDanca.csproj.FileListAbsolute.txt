@@ -216,3 +216,10 @@ C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hihop.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\salsa.scale-100.png
 C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hiphop.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game1.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game2.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game3.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\game4.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfil1.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfil2.scale-100.png
+C:\ProjetoMobileC#\AppMobileEscolaDanca\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfil3.scale-100.png

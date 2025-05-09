@@ -34,8 +34,8 @@
                                 <!-- Título e descrição -->
                                 <StackLayout Grid.Column="1" Grid.Row="0" Spacing="2">
                                     <Label Text="{Binding Titulo}" FontSize="18" FontAttributes="Bold" TextColor="#333" />
-                                    <Label Text="{Binding ValorMensal, StringFormat='Mensalidade: R${0:F2}'}" FontSize="14" TextColor="#666" Margin="0,0,0,10" />
-                                    <Label Text="{Binding Descricao}" FontSize="14" TextColor="#666" />
+                                    <Label Text="{Binding ValorMensal, StringFormat='Mensalidade: R${0:F2}'}" FontSize="14" TextColor="#0e172c" Margin="0,0,0,10" />
+                                    <Label Text="{Binding Descricao}" FontSize="14" TextColor="#0e172c" />
                                 </StackLayout>
 
                                 <!-- Plano e QtdAulas -->
@@ -43,12 +43,12 @@
                                     <Label Grid.Column="1" Grid.Row="1"
                                            Text="{Binding TipoPlano, StringFormat='Tipo de Pacote: {0}'}"
                                            FontSize="14"
-                                           TextColor="#666" />
+                                           TextColor="#0e172c" />
                                     <Label Grid.Column="1" Grid.Row="2"
                                            Text="{Binding QtdAulas, StringFormat='Quantdade de aulas: {0}'}"
                                            FontSize="14"
                                            Margin="10,0,0,0"
-                                           TextColor="#666" />
+                                           TextColor="#0e172c" />
                                 </StackLayout>
 
 
@@ -59,12 +59,12 @@
                                     <Label Grid.Column="1" Grid.Row="1"
                                            Text="{Binding DiaDaSemana, StringFormat='Dia: {0}'}"
                                            FontSize="14"
-                                           TextColor="#666" />
+                                           TextColor="#0e172c" />
                                     <Label Grid.Column="1" Grid.Row="2"
                                            Text="{Binding Horario, StringFormat='Horário: {0}'}"
                                            FontSize="14"
                                            Margin="10,0,0,0"
-                                           TextColor="#666" />
+                                           TextColor="#0e172c" />
                                 </StackLayout>
             
 
@@ -72,11 +72,11 @@
                                 <StackLayout Grid.Column="1" Grid.Row="4" Orientation="Horizontal" Margin="0,5,0,0">
                                     <Label Text="{Binding Professor, StringFormat='Prof.: {0}'}"
                                            FontSize="14"
-                                           TextColor="#666" />
+                                           TextColor="#0e172c" />
                                     <Label Text="{Binding NivelDificuldade, StringFormat='Nível: {0}'}"
                                            FontSize="14"
                                            Margin="10,0,0,0"
-                                           TextColor="#666" />
+                                           TextColor="#0e172c" />
                                 </StackLayout>
 
                                 <!-- Botão com ícone da seta -->

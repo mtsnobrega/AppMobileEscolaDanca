@@ -68,7 +68,7 @@
             <!-- Conteiner que esta organizando a gameficação -->
             <Frame CornerRadius="10"
                        Padding="10"
-                       Margin="20,40"
+                       Margin="40"
                        BackgroundColor="#f9f8fc"
                        HasShadow="False"
                        BorderColor="Black">
@@ -120,14 +120,13 @@
                         <!-- Configurando a imagem da gameficação-->
                         <Border Grid.RowSpan="2"
                                  Grid.Column="1"
+                                BackgroundColor="#cdb4db"
                                     MaximumHeightRequest="90"
                                     HeightRequest="90"
                                     WidthRequest="120">
                             <Image x:Name="ImageGame"
-                                   Source="julius.jpeg"
-                                   Aspect="AspectFill"
-                                   VerticalOptions="Start"
-                                   HorizontalOptions="End"/>
+                                   Source="game1.png"
+                                   Aspect="AspectFit"/>
                         </Border>
                     </Grid>
 

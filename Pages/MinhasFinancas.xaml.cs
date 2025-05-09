@@ -15,19 +15,33 @@ public partial class MinhasFinancas : ContentPage
         {
             new Pacote
             {
-                Nome = "Ballet Clássico",
+                Titulo = "Ballet Clássico",
+                DataVencimento = "01/11/2025",
+                Valor = 400.00m,
+
+                DataCompra = "08/05/2025",
                 Descricao = "Aulas semanais de ballet para iniciantes",
-                Duracao = "3 meses",
-                DataVencimento = DateTime.Today.AddMonths(1),
-                Valor = 400.00m
-            },
+                TipoPlano = "3 meses",
+                NivelDificuldade = "Iniciante",
+                DiaDaSemana = "Segunda-feira e Quinta-Feira",
+                Horario = "18:00",
+                Professor = "Ana Silva",
+                QtdAulas = "30",
+},
             new Pacote
             {
-                Nome = "Hip Hop Avançado",
-                Descricao = "Aulas intensas para níveis avançados",
-                Duracao = "6 meses",
-                DataVencimento = DateTime.Today.AddMonths(2),
-                Valor = 720.00m
+                Titulo = "Hip Hop",
+                DataVencimento = "28/11/2025",
+                Valor = 200.00m,
+
+                DataCompra = "08/05/2025",
+                Descricao = "Aulas semanais de ballet para iniciantes",
+                TipoPlano = "3 meses",
+                NivelDificuldade = "Intermediário",
+                DiaDaSemana = "Quarta-feira",
+                Horario = "19:30",
+                Professor = "Carlos Santos",
+                QtdAulas = "15"
             }
         };
 

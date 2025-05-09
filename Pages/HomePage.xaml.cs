@@ -4,7 +4,7 @@ namespace AppMobileEscolaDanca.Pages;
 
 public partial class HomePage : ContentPage
 {
-    private string[] predefinedImages = ["thanossmile.jpg", "julius.jpeg", "latrel.jpg"];
+    private string[] predefinedImages = ["perfil1.png", "perfil2.png", "perfil3.png"];
     private int currentImageIndex = 0;
     public HomePage()
 	{
@@ -88,16 +88,23 @@ public partial class HomePage : ContentPage
 
         if (ImageGame.Source is FileImageSource source)
         {
-            //dessa forma podemos pegar o nome da imagem que ocupa o ImageGame
             var imagemAtual = source.File;
 
-            if (AulasCompletas < 10 && imagemAtual != "latrel.jpg")
+            if (AulasCompletas <= 4 && imagemAtual != "game1.png")
             {
-                ImageGame.Source = "latrel.jpg";
+                ImageGame.Source = "game1.png";
             }
-            else if (AulasCompletas >= 10 && imagemAtual != "thanossmile.jpg")
+            else if (AulasCompletas > 4 && AulasCompletas < 8 && imagemAtual != "game2.png")
             {
-                ImageGame.Source = "thanossmile.jpg";
+                ImageGame.Source = "game2.png";
+            }
+            else if (AulasCompletas >= 10 && AulasCompletas < 14 && imagemAtual != "game3.png")
+            {
+                ImageGame.Source = "game3.png";
+            }
+            else if (AulasCompletas >= 15 && imagemAtual != "game4.png")
+            {
+                ImageGame.Source = "game4.png";
             }
         }
 

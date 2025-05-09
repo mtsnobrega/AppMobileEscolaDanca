@@ -28,7 +28,7 @@
                             <Frame Padding="15" CornerRadius="12" BackgroundColor="White" HasShadow="True">
                                 <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto">
                                     <Label Grid.Column="0" Grid.Row="0"
-                                           Text="{Binding Nome}" 
+                                           Text="{Binding Titulo}" 
                                            FontSize="18" 
                                            FontAttributes="Bold"
                                            TextColor="#333"/>

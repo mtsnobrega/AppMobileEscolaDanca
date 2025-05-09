@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\detalhesproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\detalhesproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\detalhespacote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\detalhespacote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\pacotes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\pacotes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\pacotes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\pacotes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|c:\\projetomobilec#\\appmobileescoladanca\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{36B6C05E-784E-4849-992D-AE546411226C}|AppMobileEscolaDanca.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 264,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetalhesProduto.xaml",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\DetalhesProduto.xaml",
-              "RelativeDocumentMoniker": "Pages\\DetalhesProduto.xaml",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\DetalhesProduto.xaml",
-              "RelativeToolTip": "Pages\\DetalhesProduto.xaml",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvyMAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-07T16:54:47.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Pacotes.xaml.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\Pacotes.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Pacotes.xaml.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\Pacotes.xaml.cs",
-              "RelativeToolTip": "Pages\\Pacotes.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvzQAAAAcAAAAAAAAAA==",
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T15:49:43.047Z",
+              "WhenOpened": "2025-05-09T00:10:39.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Pacotes.xaml",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\Pacotes.xaml",
-              "RelativeDocumentMoniker": "Pages\\Pacotes.xaml",
-              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\Pacotes.xaml",
-              "RelativeToolTip": "Pages\\Pacotes.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAuAAAAAAAAAA==",
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Pages\\HomePage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-07T04:17:54.431Z",
+              "WhenOpened": "2025-05-09T00:10:23.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetalhesPacote.xaml",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\DetalhesPacote.xaml",
+              "RelativeDocumentMoniker": "Pages\\DetalhesPacote.xaml",
+              "ToolTip": "C:\\ProjetoMobileC#\\AppMobileEscolaDanca\\Pages\\DetalhesPacote.xaml",
+              "RelativeToolTip": "Pages\\DetalhesPacote.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T21:57:53.457Z",
               "EditorCaption": ""
             }
           ]
